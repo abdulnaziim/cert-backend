@@ -23,7 +23,18 @@ cd ../cert-backend && composer install
 NEXT_PUBLIC_WC_PROJECT_ID=<your_walletconnect_project_id>
 NEXT_PUBLIC_CERT_ADDRESS=0x...            # Deployed Cert.sol
 NEXT_PUBLIC_CERTNFT_ADDRESS=0x...         # Deployed CertificateNFT.sol
+NEXT_PUBLIC_BACKEND_URL=http://localhost:8000
 ```
+
+- Backend (`cert-backend/.env`):
+```
+BLOCKCHAIN_RPC_URL=http://localhost:8545
+CERT_CONTRACT_ADDRESS=0x...
+CERTNFT_CONTRACT_ADDRESS=0x...
+PINATA_API_KEY=...  # Optional, for IPFS
+PINATA_API_SECRET=...  # Optional
+```
+See `cert-backend/ENV_SETUP.md` for complete configuration.
 
 3) Run local blockchain (optional)
 ```bash
@@ -40,12 +51,37 @@ npx hardhat run scripts/deploy.ts --network localhost
 ```
 Copy the printed addresses into `cert-frontend/.env.local`.
 
-5) Start frontend
+5) Start backend
+```bash
+cd ../cert-backend
+composer install
+php artisan migrate
+php artisan serve
+```
+
+6) Start frontend
 ```bash
 cd ../cert-frontend
 npm run dev
 ```
 Open http://localhost:3000, connect your wallet, and interact.
+
+## Complete Workflow
+
+### Create Certificate via Backend API
+1. Frontend calls `POST /api/certificates` with certificate data
+2. Backend creates certificate, uploads metadata to IPFS
+3. Backend issues certificate on blockchain (Cert.sol) with IPFS CID
+4. Certificate is stored in database with IPFS CID and transaction hash
+
+### View Certificates
+- Frontend can view certificates via backend API (`GET /api/certificates`)
+- Frontend can also query contracts directly using Wagmi hooks
+- Certificates include IPFS links for metadata
+
+### Verify Certificates
+- Use `POST /api/certificates/verify` to verify transaction on-chain
+- Or query contracts directly to verify certificate authenticity
 
 ## Packages
 
@@ -88,7 +124,7 @@ Laravel backend API for the certification dApp that handles certificate creation
 3. Start server: `php artisan serve`
 
 The API will be available at `http://localhost:8000`.
-See `cert-backend/README.md` or the `ENV_SETUP.md` for more details.
+See `cert-backend/README.md` and `cert-backend/ENV_SETUP.md` for more details.
 
 ## Repository Layout
 ```
