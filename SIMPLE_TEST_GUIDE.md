@@ -134,3 +134,7 @@ Open: `http://localhost:8000/api/certificates`
 
 Start with **Method 1** (the curl command) - it's the fastest way to test everything is working!
 
+
+
+
+

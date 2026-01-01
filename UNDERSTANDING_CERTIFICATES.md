@@ -114,3 +114,7 @@ The frontend has different components:
 
 The database certificates (from backend API) are separate - they may or may not be on-chain.
 
+
+
+
+

@@ -1,0 +1,43 @@
+[0;34m=== Starting Certification dApp Dev Environment ===[0m
+[0;34m[0/5] Cleaning up ports...[0m
+[0;34m[1/5] Starting Local Blockchain...[0m
+Waiting for blockchain to start...
+[0;32mBlockchain running on port 8545[0m
+[0;34m[2/5] Deploying Contracts...[0m
+Deploying contracts with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Cert deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+CertificateNFT deployed to: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+
+=== Deployment Summary ===
+Cert Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+CertificateNFT Address: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+
+Copy these addresses to your frontend .env.local:
+NEXT_PUBLIC_CERT_ADDRESS=0x5FbDB2315678afecb367f032d93F642f64180aa3
+NEXT_PUBLIC_CERTNFT_ADDRESS=0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+[0;32mCaptured Addresses:[0m
+Cert: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+NFT:  0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+[0;34m[2.5/5] Granting Issuer Role...[0m
+Granting ISSUER_ROLE to backend wallet...
+NFT Contract: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+ISSUER_ROLE: 0x114e74f6ea3bd819998f78687bfcb11b140da08e9b7d222fa9c1f1ba1f2aa122
+Backend Wallet: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+⏳ Granting ISSUER_ROLE...
+✅ ISSUER_ROLE granted!
+Transaction: 0x36bb31b4e476cb22ad5a192da8956a873019014828de036677823144e4a9a852
+
+🔍 Verification: SUCCESS
+[0;34m[3/5] Updating Configuration...[0m
+[0;32mUpdated frontend config[0m
+[0;32mUpdated backend config[0m
+[0;34m[4/5] Starting Backend...[0m
+[0;32mBackend running on port 8000[0m
+[0;34m[5/5] Starting Frontend...[0m
+[0;32mFrontend running on port 3000[0m
+
+[0;32m=== SYSTEM READY ===[0m
+Access Frontend: http://localhost:3000
+Access Backend:  http://localhost:8000/api/certificates
+Logs: node.log, backend.log, frontend.log
+To stop: Press CTRL+C (This script will trap and cleanup)

@@ -1,0 +1,14 @@
+[dotenv@17.2.3] injecting env (3) from .env -- tip: ⚙️  override existing env vars with { override: true }
+Compiled 1 Solidity file successfully (evm target: paris).
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+Deploying contracts with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Cert deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+CertificateNFT deployed to: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+
+=== Deployment Summary ===
+Cert Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+CertificateNFT Address: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+
+Copy these addresses to your frontend .env.local:
+NEXT_PUBLIC_CERT_ADDRESS=0x5FbDB2315678afecb367f032d93F642f64180aa3
+NEXT_PUBLIC_CERTNFT_ADDRESS=0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512

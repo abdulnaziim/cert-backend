@@ -217,3 +217,7 @@ Both methods create the same certificate and save it the same way!
 - Check browser console (F12) for frontend errors
 - Check backend logs in terminal where `php artisan serve` is running
 
+
+
+
+
