@@ -1,0 +1,19 @@
+{
+    "name": "dgxfchvjb",
+    "description": "",
+    "recipient_name": "hgjvlb",
+    "recipient_email": "hjkioiou@df.com",
+    "issued_at": "2025-12-13T12:50:13+00:00",
+    "certificate_type": "certification",
+    "version": "1.0",
+    "image": "ipfs:\/\/bafymock93de7086b3edc9535e98ad4691292343.pdf",
+    "external_url": "ipfs:\/\/bafymock93de7086b3edc9535e98ad4691292343.pdf",
+    "properties": {
+        "files": [
+            {
+                "uri": "ipfs:\/\/bafymock93de7086b3edc9535e98ad4691292343.pdf",
+                "type": "application\/pdf"
+            }
+        ]
+    }
+}

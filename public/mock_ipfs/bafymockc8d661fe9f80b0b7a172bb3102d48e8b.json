@@ -1,0 +1,19 @@
+{
+    "name": "academic",
+    "description": "",
+    "recipient_name": "dsfvv",
+    "recipient_email": "ssfsfsda@gmail.com",
+    "issued_at": "2025-12-13T12:27:51+00:00",
+    "certificate_type": "certification",
+    "version": "1.0",
+    "image": "ipfs:\/\/bafymockb8cdffe2097da26d593528f59d0a8200.pdf",
+    "external_url": "ipfs:\/\/bafymockb8cdffe2097da26d593528f59d0a8200.pdf",
+    "properties": {
+        "files": [
+            {
+                "uri": "ipfs:\/\/bafymockb8cdffe2097da26d593528f59d0a8200.pdf",
+                "type": "application\/pdf"
+            }
+        ]
+    }
+}

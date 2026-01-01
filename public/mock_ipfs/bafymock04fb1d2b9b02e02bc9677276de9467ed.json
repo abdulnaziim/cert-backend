@@ -1,0 +1,19 @@
+{
+    "name": "yfhg",
+    "description": "",
+    "recipient_name": "fhgjk",
+    "recipient_email": "fgh@gg.com",
+    "issued_at": "2025-12-13T13:15:23+00:00",
+    "certificate_type": "certification",
+    "version": "1.0",
+    "image": "ipfs:\/\/bafymock41a2ed19822c211a4321b49020e3c99d.pdf",
+    "external_url": "ipfs:\/\/bafymock41a2ed19822c211a4321b49020e3c99d.pdf",
+    "properties": {
+        "files": [
+            {
+                "uri": "ipfs:\/\/bafymock41a2ed19822c211a4321b49020e3c99d.pdf",
+                "type": "application\/pdf"
+            }
+        ]
+    }
+}

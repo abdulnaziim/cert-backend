@@ -1,61 +1,163 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Certification Backend API
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Laravel backend API for the certification dApp that handles certificate creation, IPFS storage, and blockchain interactions.
 
-## About Laravel
+## Features
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- REST API for certificate management
+- Automatic IPFS upload of certificate metadata
+- Blockchain integration for on-chain certificate issuance
+- Transaction verification
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## API Endpoints
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### GET /api/certificates
+List all certificates with pagination.
 
-## Learning Laravel
+**Response:**
+```json
+{
+  "data": [
+    {
+      "id": 1,
+      "recipient_name": "John Doe",
+      "recipient_email": "john@example.com",
+      "recipient_address": "0x...",
+      "title": "Certificate Title",
+      "description": "Certificate description",
+      "ipfs_cid": "bafybei...",
+      "ipfs_url": "https://gateway.pinata.cloud/ipfs/bafybei...",
+      "transaction_hash": "0x...",
+      "issued_at": "2025-11-28T12:00:00.000000Z"
+    }
+  ],
+  "current_page": 1,
+  "last_page": 1
+}
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### GET /api/certificates/{id}
+Get a specific certificate by ID.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### POST /api/certificates
+Create a new certificate.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+**Request:**
+```json
+{
+  "recipient_name": "John Doe",
+  "recipient_email": "john@example.com",
+  "recipient_address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb", // Optional
+  "title": "Certificate Title",
+  "description": "Certificate description" // Optional
+}
+```
 
-## Laravel Sponsors
+**Response:**
+```json
+{
+  "id": 1,
+  "recipient_name": "John Doe",
+  "recipient_email": "john@example.com",
+  "title": "Certificate Title",
+  "description": "Certificate description",
+  "ipfs_cid": "bafybei...",
+  "ipfs_url": "https://gateway.pinata.cloud/ipfs/bafybei...",
+  "transaction_hash": "0x...",
+  "on_chain_id": "1",
+  "issued_at": "2025-11-28T12:00:00.000000Z"
+}
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+**Workflow:**
+1. Creates certificate record in database
+2. Generates metadata JSON
+3. Uploads metadata to IPFS
+4. Issues certificate on blockchain (Cert.sol contract) with IPFS CID
+5. Returns certificate with all details
 
-### Premium Partners
+### POST /api/certificates/verify
+Verify a certificate transaction on-chain.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+**Request:**
+```json
+{
+  "transaction_hash": "0x..."
+}
+```
 
-## Contributing
+**Response:**
+```json
+{
+  "transaction_hash": "0x...",
+  "verified": true
+}
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Setup
 
-## Code of Conduct
+See [ENV_SETUP.md](./ENV_SETUP.md) for detailed environment configuration.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Quick Start
 
-## Security Vulnerabilities
+1. Install dependencies:
+   ```bash
+   composer install
+   ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+2. Configure environment:
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
 
-## License
+3. Set up database:
+   ```bash
+   touch database/database.sqlite
+   php artisan migrate
+   ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+4. Configure `.env`:
+   - Set `BLOCKCHAIN_RPC_URL` (e.g., `http://localhost:8545`)
+   - Set `CERT_CONTRACT_ADDRESS` and `CERTNFT_CONTRACT_ADDRESS`
+   - Set IPFS credentials (Pinata or local node)
+
+5. Start server:
+   ```bash
+   php artisan serve
+   ```
+
+The API will be available at `http://localhost:8000`
+
+## Configuration
+
+### Blockchain
+
+- `BLOCKCHAIN_RPC_URL`: RPC endpoint (localhost or testnet)
+- `DEPLOYER_PRIVATE_KEY`: Private key for issuing certificates (optional for localhost)
+- `CERT_CONTRACT_ADDRESS`: Deployed Cert.sol address
+- `CERTNFT_CONTRACT_ADDRESS`: Deployed CertificateNFT.sol address
+
+### IPFS
+
+**Pinata (Production):**
+- `PINATA_API_KEY`: Your Pinata API key
+- `PINATA_API_SECRET`: Your Pinata API secret
+
+**Local Node (Development):**
+- `IPFS_NODE_URL`: Local IPFS node URL (default: `http://localhost:5001`)
+
+## Development
+
+The backend integrates with:
+- **Frontend**: Next.js app at `cert-frontend/`
+- **Contracts**: Solidity contracts at `cert-contracts/`
+- **IPFS**: Pinata or local IPFS node
+- **Blockchain**: Ethereum-compatible network (localhost, Sepolia, etc.)
+
+## Notes
+
+- For local development with Hardhat node, `DEPLOYER_PRIVATE_KEY` is optional
+- IPFS upload will use mock CIDs if not configured (for development)
+- Certificate creation requires `recipient_address` for on-chain issuance
+- Certificates are created with IPFS metadata even without blockchain interaction

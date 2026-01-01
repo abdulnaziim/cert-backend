@@ -1,0 +1,9 @@
+{
+    "name": "Test Fallback",
+    "description": "",
+    "recipient_name": "John Doe Fallback",
+    "recipient_email": "john@example.com",
+    "issued_at": "2025-12-12T13:42:51+00:00",
+    "certificate_type": "certification",
+    "version": "1.0"
+}

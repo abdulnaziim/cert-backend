@@ -1,0 +1,19 @@
+{
+    "name": "gfh",
+    "description": "",
+    "recipient_name": "rtyfuygh",
+    "recipient_email": "gfhjg@sdfgh.com",
+    "issued_at": "2025-12-13T13:18:59+00:00",
+    "certificate_type": "certification",
+    "version": "1.0",
+    "image": "ipfs:\/\/bafymockafb7d45bd6a4ba0645c3bdf0afbe8d12.pdf",
+    "external_url": "ipfs:\/\/bafymockafb7d45bd6a4ba0645c3bdf0afbe8d12.pdf",
+    "properties": {
+        "files": [
+            {
+                "uri": "ipfs:\/\/bafymockafb7d45bd6a4ba0645c3bdf0afbe8d12.pdf",
+                "type": "application\/pdf"
+            }
+        ]
+    }
+}

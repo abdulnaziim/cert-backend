@@ -1,0 +1,19 @@
+{
+    "name": "iedc",
+    "description": "roll no 03 s7",
+    "recipient_name": "nazim",
+    "recipient_email": "abdulnazim455@gmail.com",
+    "issued_at": "2025-12-12T13:51:47+00:00",
+    "certificate_type": "certification",
+    "version": "1.0",
+    "image": "ipfs:\/\/bafymock65a5680cb21159f5be2d132d810eacdf.pdf",
+    "external_url": "ipfs:\/\/bafymock65a5680cb21159f5be2d132d810eacdf.pdf",
+    "properties": {
+        "files": [
+            {
+                "uri": "ipfs:\/\/bafymock65a5680cb21159f5be2d132d810eacdf.pdf",
+                "type": "application\/pdf"
+            }
+        ]
+    }
+}

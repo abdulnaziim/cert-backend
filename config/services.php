@@ -35,4 +35,18 @@ return [
         ],
     ],
 
+    'ipfs' => [
+        'pinata_api_key' => env('PINATA_API_KEY'),
+        'pinata_api_secret' => env('PINATA_API_SECRET'),
+        'node_url' => env('IPFS_NODE_URL', 'http://localhost:5001'),
+        'gateway_url' => env('IPFS_GATEWAY_URL', 'https://gateway.pinata.cloud/ipfs/'),
+    ],
+
+    'blockchain' => [
+        'rpc_url' => env('BLOCKCHAIN_RPC_URL', 'http://localhost:8545'),
+        'private_key' => env('DEPLOYER_PRIVATE_KEY', ''),
+        'cert_contract_address' => env('CERT_CONTRACT_ADDRESS', ''),
+        'cert_nft_contract_address' => env('CERTNFT_CONTRACT_ADDRESS', ''),
+    ],
+
 ];

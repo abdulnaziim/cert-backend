@@ -1,0 +1,19 @@
+{
+    "name": "fgxchv",
+    "description": "",
+    "recipient_name": "xbvcnbmm,",
+    "recipient_email": "cxvbnmn@fggg.com",
+    "issued_at": "2025-12-13T12:52:09+00:00",
+    "certificate_type": "certification",
+    "version": "1.0",
+    "image": "ipfs:\/\/bafymockb7dd90b4cf02c13f701dd4bd579188f3.pdf",
+    "external_url": "ipfs:\/\/bafymockb7dd90b4cf02c13f701dd4bd579188f3.pdf",
+    "properties": {
+        "files": [
+            {
+                "uri": "ipfs:\/\/bafymockb7dd90b4cf02c13f701dd4bd579188f3.pdf",
+                "type": "application\/pdf"
+            }
+        ]
+    }
+}

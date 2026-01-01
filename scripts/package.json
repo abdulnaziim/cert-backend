@@ -1,0 +1,16 @@
+{
+  "name": "cert-backend-scripts",
+  "version": "1.0.0",
+  "description": "Helper scripts for certificate backend",
+  "scripts": {
+    "encode-tx": "node encode-tx.js"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0"
+  }
+}
+
+
+
+
+

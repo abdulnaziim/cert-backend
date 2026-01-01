@@ -1,0 +1,19 @@
+{
+    "name": "iedc",
+    "description": "",
+    "recipient_name": "nazim",
+    "recipient_email": "nesda@gmail.com",
+    "issued_at": "2025-12-13T12:33:24+00:00",
+    "certificate_type": "certification",
+    "version": "1.0",
+    "image": "ipfs:\/\/bafymock66b09833c8e2edb767a03f8a39c76855.pdf",
+    "external_url": "ipfs:\/\/bafymock66b09833c8e2edb767a03f8a39c76855.pdf",
+    "properties": {
+        "files": [
+            {
+                "uri": "ipfs:\/\/bafymock66b09833c8e2edb767a03f8a39c76855.pdf",
+                "type": "application\/pdf"
+            }
+        ]
+    }
+}

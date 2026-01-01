@@ -1,0 +1,19 @@
+{
+    "name": "Test Fixed Metadata",
+    "description": "",
+    "recipient_name": "John Doe Fixed",
+    "recipient_email": "john@example.com",
+    "issued_at": "2025-12-12T13:46:10+00:00",
+    "certificate_type": "certification",
+    "version": "1.0",
+    "image": "ipfs:\/\/bafymock83e3587a7a23e960968247347598d2ea.pdf",
+    "external_url": "ipfs:\/\/bafymock83e3587a7a23e960968247347598d2ea.pdf",
+    "properties": {
+        "files": [
+            {
+                "uri": "ipfs:\/\/bafymock83e3587a7a23e960968247347598d2ea.pdf",
+                "type": "application\/pdf"
+            }
+        ]
+    }
+}
