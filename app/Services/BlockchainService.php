@@ -374,7 +374,7 @@ class BlockchainService
         $contractAddress = $this->certNftContractAddress;
 
         if (empty($apiKey) || empty($contractAddress)) {
-            Log::warning('Etherscan API key or contract address not configured');
+            Log::debug('Etherscan API key or contract address not configured');
             return [];
         }
 
@@ -517,6 +517,24 @@ class BlockchainService
                     $cert->save();
                     $synced++;
                 }
+            }
+        }
+
+        // 2. Check local pending certificates (Has Hash, No Token ID)
+        // This is crucial if Etherscan API is unavailable/unconfigured but we have the TX Hash
+        // 2. Check ALL local pending certificates (Has Hash, No Token ID)
+        // This resolves stuck certificates for any user when a sync is triggered
+        $pendingCerts = \App\Models\Certificate::whereNotNull('transaction_hash')
+            ->whereNull('token_id')
+            ->get();
+
+        foreach ($pendingCerts as $cert) {
+            $tokenId = $this->getTokenIdFromReceipt($cert->transaction_hash);
+            if ($tokenId) {
+                $cert->token_id = $tokenId;
+                $cert->on_chain_id = $tokenId;
+                $cert->save();
+                $synced++;
             }
         }
 
