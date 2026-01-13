@@ -1,4 +1,4 @@
-[dotenv@17.2.3] injecting env (3) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (3) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
 Started HTTP and WebSocket JSON-RPC server at http://127.0.0.1:8545/
 
 Accounts
@@ -123,7 +123,7 @@ Any funds sent to them on Mainnet or any other live network WILL BE LOST.
   From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
   Value:               0 ETH
   Gas used:            395645 of 30000000
-  Block #1:            0x67b4b3415e7f72ada80d991c2e3df37a7f745ad30d9baff45463848113a7194a
+  Block #1:            0x724938d367332b06b5f55f1a5c91ddfd737e564cf251627444beb202b629200b
 
 [32meth_getTransactionByHash[0m
 [32meth_getTransactionReceipt[0m
@@ -157,7 +157,7 @@ Any funds sent to them on Mainnet or any other live network WILL BE LOST.
   From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
   Value:               0 ETH
   Gas used:            1481884 of 30000000
-  Block #2:            0xb0b8ef2a57dec4d7d388d6aeeb97be5b9e6670e72b21a31d82ec85e387ddd8c0
+  Block #2:            0xfac7d3be2dabf20f3a45792b97ec93f98da2f4513f14c8d49f5f30d8da004135
 
 [32meth_getTransactionByHash[0m
 [32meth_getTransactionReceipt[0m
@@ -223,7 +223,7 @@ Any funds sent to them on Mainnet or any other live network WILL BE LOST.
   To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
   Value:               0 ETH
   Gas used:            51520 of 30000000
-  Block #3:            0x6f69b708689a820c7c253b81fa19bb8cb51b1e50d5712972767768e11d5adbea
+  Block #3:            0x3dfa66aaaaea0276cb8e99c51e28bc51260128d0761f2a80b2c2878acc7f7ec0
 
 [32meth_getTransactionByHash[0m
 [32meth_getTransactionReceipt[0m
