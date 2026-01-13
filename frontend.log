@@ -1730,3 +1730,1143 @@ WalletConnect Core is already initialized. This is probably a mistake and can le
  GET / 200 in 331ms
  GET /favicon.ico?favicon.0b3bf435.ico 200 in 259ms
  GET /admin 200 in 87ms
+ GET /admin 200 in 142ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 250ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 237ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 27 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 27 times.
+ GET /verify 200 in 569ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 258ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Thu, 01 Jan 2026 21:22:34 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9b7512a2d82b2fe1-CNN',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /admin 200 in 84ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 253ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 28 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 28 times.
+ GET /student 200 in 541ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 227ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Thu, 01 Jan 2026 21:23:42 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9b751447d9562fe5-CNN',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /verify?mode=token&id=2 200 in 144ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 229ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmPGnbzgjaSRvjxF8ABwJG5pGEurBKcFV2Bbzu5nJXSj8H 200 in 7932ms
+ GET /student 200 in 127ms
+ GET / 200 in 135ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 245ms
+ GET /verify 200 in 93ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 224ms
+ GET / 200 in 128ms
+ GET /verify 200 in 145ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 232ms
+ GET / 200 in 115ms
+ GET /verify 200 in 89ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 267ms
+ GET / 200 in 117ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 247ms
+ GET /student 200 in 76ms
+ GET / 200 in 201ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 234ms
+ HEAD / 200 in 156ms
+ ✓ Compiled in 191ms
+ ✓ Compiled in 72ms
+ ✓ Compiled in 29ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 29 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 29 times.
+ GET / 200 in 628ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 553ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Fri, 02 Jan 2026 08:50:19 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9b790212cc37ff6b-BOM',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 226ms
+ ✓ Compiled in 161ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 30 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 30 times.
+ GET / 200 in 796ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 244ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 265ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Fri, 02 Jan 2026 09:02:16 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9b791396aa56ff6f-BOM',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 265ms
+ GET /admin 200 in 159ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 247ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 284ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 246ms
+ ✓ Compiled in 103ms
+ ✓ Compiled in 60ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 265ms
+ ✓ Compiled in 72ms
+ ✓ Compiled in 123ms
+ ✓ Compiled in 72ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 283ms
+ ✓ Compiled in 64ms
+ GET /admin 200 in 168ms
+ ✓ Compiled in 82ms
+ ✓ Compiled in 42ms
+ ✓ Compiled in 673ms
+ ✓ Compiled in 73ms
+ ✓ Compiled in 869ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 49ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 31 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 31 times.
+ GET /admin 200 in 1305ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Fri, 02 Jan 2026 09:20:59 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9b792efdecd14421-BOM',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 239ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 275ms
+ ✓ Compiled in 88ms
+ ✓ Compiled in 21ms
+   Reload env: .env.local
+ ✓ Compiled in 196ms
+ GET /admin 200 in 261ms
+ ✓ Compiled in 70ms
+ ✓ Compiled in 94ms
+ ✓ Compiled in 21ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 32 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 32 times.
+ GET /admin 200 in 721ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 263ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 221ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Fri, 02 Jan 2026 09:33:59 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9b794205f96f80c1-BOM',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /admin 200 in 70ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 375ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 239ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 270ms
+ ✓ Compiled /admin in 33ms
+ GET /admin 200 in 770ms
+ GET /admin 200 in 48ms
+ GET /admin 200 in 76ms
+ ✓ Compiled in 15.2s
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 275ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 33 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 33 times.
+ GET /verify 200 in 1027ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 323ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Fri, 02 Jan 2026 09:42:40 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9b794ec4bac740ab-BOM',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmSp8oiMoCusjq47jAXceQ5nTvba8ZuiDmCCpdKL4QNZfd 200 in 6916ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmSp8oiMoCusjq47jAXceQ5nTvba8ZuiDmCCpdKL4QNZfd 200 in 5069ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 34 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 34 times.
+ GET /admin 200 in 176ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Fri, 02 Jan 2026 09:43:24 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9b794fd4e90a3de0-BOM',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /verify 200 in 146ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 252ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmSp8oiMoCusjq47jAXceQ5nTvba8ZuiDmCCpdKL4QNZfd 200 in 7687ms
+ GET /admin 200 in 107ms
+ ✓ Compiled in 1218ms
+ ✓ Compiled in 92ms
+ ✓ Compiled in 205ms
+ GET /verify 200 in 100ms
+ ✓ Compiled / in 160ms
+ GET / 200 in 298ms
+ GET /verify 200 in 68ms
+ GET / 200 in 57ms
+ GET /admin 200 in 112ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 35 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 35 times.
+ GET / 200 in 660ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 260ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Fri, 02 Jan 2026 09:53:49 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9b795f163d8f1191-COK',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /admin 200 in 62ms
+ GET / 200 in 62ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 244ms
+ ✓ Compiled /student in 64ms
+ GET /student 200 in 158ms
+ GET /verify?mode=token&id=21 200 in 44ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmSp8oiMoCusjq47jAXceQ5nTvba8ZuiDmCCpdKL4QNZfd 200 in 4141ms
+ GET /verify 200 in 176ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmSp8oiMoCusjq47jAXceQ5nTvba8ZuiDmCCpdKL4QNZfd 200 in 5221ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmSp8oiMoCusjq47jAXceQ5nTvba8ZuiDmCCpdKL4QNZfd 200 in 8222ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 236ms
+ GET /verify 200 in 74ms
+ GET / 200 in 61ms
+ GET / 200 in 65ms
+ GET / 200 in 153ms
+ GET / 200 in 241ms
+ GET / 200 in 132ms
+ HEAD / 200 in 137ms
+ GET /verify 200 in 120ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 237ms
+ GET /admin 200 in 105ms
+ GET / 200 in 70ms
+ GET /verify 200 in 64ms
+ GET /admin 200 in 71ms
+ GET /verify 200 in 71ms
+ GET / 200 in 109ms
+ GET /verify 200 in 162ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 271ms
+ GET / 200 in 350ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 230ms
+ GET /verify 200 in 129ms
+ GET / 200 in 130ms
+ GET / 200 in 138ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 337ms
+ ✓ Compiled in 317ms
+ ✓ Compiled in 546ms
+ ✓ Compiled in 1462ms
+ ✓ Compiled in 91ms
+ GET /verify 200 in 462ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmag9x2QqFiLqJWneG4reZQ9GQsVL51s6KmRrhExWdJTtw 200 in 9650ms
+ GET / 200 in 226ms
+ GET /verify 200 in 102ms
+ ✓ Compiled in 121ms
+ ✓ Compiled in 173ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 36 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 36 times.
+ GET / 200 in 1623ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 285ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 228ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Mon, 05 Jan 2026 15:31:54 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9b940675ef2858b8-MAA',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /admin 200 in 235ms
+ GET / 200 in 96ms
+ GET /verify 200 in 105ms
+ GET / 200 in 112ms
+ ✓ Compiled in 217ms
+ GET / 200 in 212ms
+ GET / 200 in 62ms
+ GET /admin 200 in 75ms
+ GET /verify 200 in 136ms
+ GET /verify 200 in 64ms
+ GET / 200 in 68ms
+ GET / 200 in 63ms
+ GET /verify 200 in 68ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 272ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 272ms
+ GET /admin 200 in 73ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 235ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 250ms
+ GET /verify 200 in 88ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmPiPETwGUBaC9HbP13cfYcX8cWWwzaWSv5dLVLsNfyVmG 200 in 5930ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmPiPETwGUBaC9HbP13cfYcX8cWWwzaWSv5dLVLsNfyVmG 200 in 8101ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmPiPETwGUBaC9HbP13cfYcX8cWWwzaWSv5dLVLsNfyVmG 200 in 4986ms
+ GET /verify?mode=token&id=22 200 in 69ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmPiPETwGUBaC9HbP13cfYcX8cWWwzaWSv5dLVLsNfyVmG 200 in 7156ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmPiPETwGUBaC9HbP13cfYcX8cWWwzaWSv5dLVLsNfyVmG 200 in 3538ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 297ms
+ GET /student 200 in 182ms
+ GET /verify 200 in 85ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 285ms
+ GET /verify 200 in 73ms
+ GET /admin 200 in 70ms
+ GET / 200 in 76ms
+ GET /verify 200 in 113ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 270ms
+ GET /admin 200 in 50ms
+ GET / 200 in 90ms
+ GET / 200 in 70ms
+ GET / 200 in 65ms
+ GET / 200 in 48ms
+ GET / 200 in 49ms
+ GET / 200 in 70ms
+ GET / 200 in 32ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 257ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 37 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 37 times.
+ GET / 200 in 1158ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 268ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Tue, 06 Jan 2026 06:07:21 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9b9908dad8ac213a-MAA',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 250ms
+ GET /admin 200 in 138ms
+ GET / 200 in 60ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 301ms
+ GET /admin 200 in 85ms
+ GET /admin 200 in 112ms
+ GET /verify 200 in 101ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmPiPETwGUBaC9HbP13cfYcX8cWWwzaWSv5dLVLsNfyVmG 200 in 9116ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmSp8oiMoCusjq47jAXceQ5nTvba8ZuiDmCCpdKL4QNZfd 200 in 5975ms
+ GET /verify 200 in 67ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmPiPETwGUBaC9HbP13cfYcX8cWWwzaWSv5dLVLsNfyVmG 200 in 4428ms
+ GET / 200 in 111ms
+ GET /verify 200 in 62ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 258ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 269ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 307ms
+ GET /admin 200 in 61ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 259ms
+ GET /student 200 in 64ms
+ GET / 200 in 65ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 245ms
+ GET /admin 200 in 62ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 264ms
+ GET /admin 200 in 91ms
+ GET /verify 200 in 69ms
+ GET / 200 in 64ms
+ GET / 200 in 60ms
+ GET /admin 200 in 64ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 244ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 252ms
+ GET /verify 200 in 73ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmdF2uuPGnLLBknYZugcHyWxjPdqKKEXiv4dwTfddZkaUe 200 in 8344ms
+ GET / 200 in 93ms
+ GET /admin 200 in 104ms
+ ✓ Compiled in 251ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 38 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 38 times.
+ GET /admin 200 in 782ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 237ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 225ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Tue, 06 Jan 2026 06:36:19 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9b9933479b9a4561-BOM',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET / 200 in 108ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 244ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 209ms
+ GET /verify 200 in 110ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmdF2uuPGnLLBknYZugcHyWxjPdqKKEXiv4dwTfddZkaUe 200 in 7351ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 280ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 238ms
+ GET /admin 200 in 99ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 255ms
+ GET /verify 200 in 103ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 7582ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 4734ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 351ms
+ GET /verify 200 in 85ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 4971ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 251ms
+ GET /student 200 in 190ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 246ms
+ GET /verify 200 in 71ms
+ GET / 200 in 66ms
+ GET /admin 200 in 64ms
+ GET / 200 in 129ms
+ GET /verify 200 in 68ms
+ GET /admin 200 in 88ms
+ GET /verify 200 in 62ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmPFNYa1HqoFZZLX4igmbb7rHEe55nyqBcEt38Z5BaaFGa 200 in 6224ms
+ GET /verify 200 in 99ms
+ GET / 200 in 85ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 307ms
+ GET /admin 200 in 77ms
+ GET /verify 200 in 65ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 7155ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 5657ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 251ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 7418ms
+ GET /verify 200 in 71ms
+ GET / 200 in 57ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 288ms
+ GET /admin 200 in 76ms
+ GET /verify 200 in 67ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 5727ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 258ms
+Proxy error: TypeError: fetch failed
+    at async GET (src/app/api/proxy-metadata/route.ts:36:26)
+  34 |             : url;
+  35 |
+> 36 |         const response = await fetch(targetUrl);
+     |                          ^
+  37 |
+  38 |         if (!response.ok) {
+  39 |             throw new Error(`Failed to fetch IPFS data: ${response.statusText}`); {
+  [cause]: [Error [ConnectTimeoutError]: Connect Timeout Error (attempted addresses: 2606:4700:83b0:a2ba:69c6:564:f4b5:e5da:443, timeout: 10000ms)] {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 500 in 11056ms
+Proxy error: TypeError: fetch failed
+    at async GET (src/app/api/proxy-metadata/route.ts:36:26)
+  34 |             : url;
+  35 |
+> 36 |         const response = await fetch(targetUrl);
+     |                          ^
+  37 |
+  38 |         if (!response.ok) {
+  39 |             throw new Error(`Failed to fetch IPFS data: ${response.statusText}`); {
+  [cause]: [Error [ConnectTimeoutError]: Connect Timeout Error (attempted addresses: 172.64.152.121:443, timeout: 10000ms)] {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 500 in 10829ms
+ GET /admin 200 in 101ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 241ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 239ms
+ GET /verify 200 in 63ms
+ GET /verify 200 in 58ms
+ GET /verify 200 in 59ms
+ HEAD /admin 200 in 146ms
+ GET /verify 200 in 129ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 5538ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 314ms
+ ✓ Compiled in 347ms
+ GET / 200 in 291ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 39 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 39 times.
+ GET / 200 in 1640ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 228ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 257ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Wed, 07 Jan 2026 05:44:25 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9ba124a3b9507f85-MAA',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /admin 200 in 291ms
+ GET /admin 200 in 74ms
+ GET /admin 200 in 65ms
+ GET / 200 in 77ms
+ GET /verify 200 in 64ms
+ ✓ Compiled in 151ms
+ ✓ Compiled in 208ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 40 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 40 times.
+ GET /verify 200 in 788ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 234ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 221ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Wed, 07 Jan 2026 05:49:52 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9ba12c9aee7d7fc7-MAA',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET / 200 in 290ms
+ GET /admin 200 in 129ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 41 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 41 times.
+ GET /admin 200 in 582ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 241ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 223ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Wed, 07 Jan 2026 05:50:07 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9ba12cfd2c6b7f5b-MAA',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET / 200 in 74ms
+ GET /verify 200 in 59ms
+ GET /admin 200 in 92ms
+ ✓ Compiled in 97ms
+ GET /verify 200 in 229ms
+ GET / 200 in 85ms
+ GET /verify 200 in 61ms
+ GET /verify 200 in 80ms
+ GET / 200 in 105ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 258ms
+ GET /admin 200 in 69ms
+ GET /admin 200 in 131ms
+ GET / 200 in 69ms
+ ✓ Compiled in 273ms
+ ✓ Compiled in 51ms
+ ✓ Compiled in 86ms
+ ✓ Compiled in 126ms
+ ✓ Compiled in 93ms
+ ✓ Compiled in 81ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 42 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 42 times.
+ GET / 200 in 798ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 235ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 219ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Wed, 07 Jan 2026 06:03:03 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9ba13feedba19d73-MAA',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /admin 200 in 148ms
+ GET / 200 in 43ms
+ ✓ Compiled in 57ms
+ GET / 200 in 139ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 298ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 223ms
+ GET /admin 200 in 64ms
+ GET /verify 200 in 149ms
+ ✓ Compiled in 108ms
+ ✓ Compiled in 88ms
+ ✓ Compiled in 148ms
+ GET /verify 200 in 114ms
+ GET / 200 in 191ms
+ GET /verify 200 in 143ms
+ GET / 200 in 71ms
+ GET /verify 200 in 61ms
+ GET / 200 in 72ms
+ GET / 200 in 61ms
+ GET / 200 in 131ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 326ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 312ms
+ GET /admin 200 in 140ms
+ GET /verify 200 in 92ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 7229ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 7066ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 262ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 7129ms
+ GET /verify 200 in 754ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 6696ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 366ms
+ GET /student 200 in 217ms
+ GET / 200 in 147ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 269ms
+ GET /admin 200 in 73ms
+ GET / 200 in 150ms
+ GET /verify 200 in 85ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 6941ms
+ GET / 200 in 68ms
+ GET /verify 200 in 41ms
+ GET /admin 200 in 69ms
+ GET / 200 in 124ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 244ms
+ GET /admin 200 in 76ms
+ GET /verify 200 in 127ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 6404ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 6114ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 244ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 251ms
+ GET / 200 in 107ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 354ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 43 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 43 times.
+ GET / 200 in 2280ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 227ms
+ GET /verify 200 in 195ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 248ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Thu, 08 Jan 2026 15:12:59 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9baca2ddebefca8c-MAA',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 239ms
+ GET /admin 200 in 274ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 263ms
+ GET /verify 200 in 52ms
+ GET /student 200 in 204ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 44 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 44 times.
+ GET /student 200 in 968ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Thu, 08 Jan 2026 15:15:08 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9baca607c931c87a-MAA',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 860ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 220ms
+ GET /student 200 in 167ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 235ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 242ms
+ GET / 200 in 92ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 249ms
+ GET /admin 200 in 44ms
+ GET /verify 200 in 166ms
+ GET / 200 in 158ms
+ GET /verify 200 in 258ms
+ GET / 200 in 282ms
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 45 times.
+WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 45 times.
+ GET /verify 200 in 189ms
+[Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (../../../../src/utils/FetchUtil.ts:23:17)
+    at async FetchUtil.get (../../../../src/utils/FetchUtil.ts:44:22)
+    at async Object.fetchProjectConfig (../../../../src/controllers/ApiController.ts:158:22)
+    at async Object.fetchRemoteFeatures (../../../../src/utils/ConfigUtil.ts:233:26)
+    at async AppKit.initialize (../../../../src/client/appkit-base-client.ts:165:27) {
+  [cause]: Response {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Headers {
+      date: 'Thu, 08 Jan 2026 15:19:31 GMT',
+      'content-type': 'text/plain; charset=UTF-8',
+      'content-length': '9',
+      connection: 'keep-alive',
+      'cf-ray': '9bacac6e29d71194-COK',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=300, s-maxage=300',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.web3modal.org/appkit/v1/config?projectId=804e760bf608552ef29d115e00319ef4&st=appkit&sv=html-core-1.7.8'
+  }
+}
+ GET /apple-touch-icon-precomposed.png 404 in 338ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 456ms
+ GET /apple-touch-icon-precomposed.png 404 in 244ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 314ms
+ HEAD / 200 in 364ms
+ HEAD /verify 200 in 299ms
+ GET /apple-touch-icon.png 404 in 132ms
+ GET /apple-touch-icon.png 404 in 133ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 265ms
+ GET /student 200 in 68ms
+ GET / 200 in 132ms
+ GET /verify 200 in 64ms
+ GET / 200 in 70ms
+ GET /student 200 in 145ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 304ms
+ GET / 200 in 82ms
+ GET / 200 in 63ms
+ GET /student 200 in 140ms
+ GET /verify 200 in 92ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 7346ms
+ GET / 200 in 141ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 308ms
+ GET /admin 200 in 118ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 249ms
+ GET /verify 200 in 117ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 9765ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 6311ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 245ms
+ GET / 200 in 102ms
+ GET /admin 200 in 56ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 8303ms
+ GET /verify 200 in 103ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 6172ms
+ GET / 200 in 66ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 304ms
+ GET /student 200 in 86ms
+ GET / 200 in 103ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 287ms
+ GET /admin 200 in 1961ms
+ GET /admin 200 in 50ms
+ GET / 200 in 101ms
+ GET /verify 200 in 82ms
+ GET / 200 in 82ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 264ms
+ GET /admin 200 in 182ms
+ GET /verify 200 in 83ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 6049ms
+ GET / 200 in 76ms
+ GET /verify 200 in 96ms
+ GET / 200 in 67ms
+ GET /admin 200 in 75ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 265ms
+ GET /student 200 in 83ms
+ GET /verify 200 in 163ms
+ GET /verify 200 in 101ms
+ GET / 200 in 127ms
+ GET /student 200 in 85ms
+ GET /verify?mode=token&id=25 200 in 75ms
+ GET / 200 in 152ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 619ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 330ms
+ GET /admin 200 in 162ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 272ms
+ GET /verify 200 in 111ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmT7S7JNrXUcSya3v2Y1c7XjGYXpsYXRVQdtBC5qTQhCWQ 200 in 4581ms
+ GET / 200 in 152ms
+ GET /admin 200 in 121ms
+ GET / 200 in 134ms
+ GET /verify 200 in 163ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmT7S7JNrXUcSya3v2Y1c7XjGYXpsYXRVQdtBC5qTQhCWQ 200 in 8001ms
+ GET / 200 in 73ms
+ GET /verify 200 in 136ms
+ GET / 200 in 71ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 331ms
+ GET /admin 200 in 123ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 278ms
+ GET /verify 200 in 111ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmSEQu4HDvTHwRYUgsZVXV2WEpUxqaMGu5PSuowkwShBVH 200 in 7699ms
+ GET /verify 200 in 106ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmSEQu4HDvTHwRYUgsZVXV2WEpUxqaMGu5PSuowkwShBVH 200 in 7851ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 258ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 287ms
+ GET /student 200 in 130ms
+ GET /student 200 in 47ms
+ GET /verify?mode=token&id=26 200 in 56ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmT7S7JNrXUcSya3v2Y1c7XjGYXpsYXRVQdtBC5qTQhCWQ 200 in 6758ms
+ GET / 200 in 76ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 253ms
+ GET /student 200 in 56ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 248ms
+ GET /student 200 in 95ms
+ GET /verify?mode=token&id=25 200 in 71ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmTgVAtLt8gNw3iqVJAkwitG7uTnzCTnspfopH5bKLNBTs 200 in 6330ms
+ GET / 200 in 96ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 245ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 247ms
+ GET /admin 200 in 71ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 242ms
+ GET /student 200 in 77ms
+ GET / 200 in 69ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 240ms
+ GET /admin 200 in 107ms
+ GET / 200 in 100ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 325ms
+ GET /admin 200 in 149ms
+ GET /verify?mode=token&id=27 200 in 85ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmSEQu4HDvTHwRYUgsZVXV2WEpUxqaMGu5PSuowkwShBVH 200 in 6764ms
+ GET / 200 in 141ms
+ GET /admin 200 in 66ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 261ms
+ GET / 200 in 86ms
+ GET /student 200 in 391ms
+ GET / 200 in 189ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 262ms
+ GET /admin 200 in 142ms
+ GET / 200 in 66ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 246ms
+ GET /student 200 in 76ms
+ GET /verify?mode=token&id=27 200 in 106ms
+ GET /api/proxy-metadata?url=ipfs%3A%2F%2FQmSEQu4HDvTHwRYUgsZVXV2WEpUxqaMGu5PSuowkwShBVH 200 in 6186ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 305ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 327ms
