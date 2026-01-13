@@ -256,6 +256,91 @@ class CertificatesController extends Controller
 
         return response()->json($result);
     }
+
+    /**
+     * Mint certificate via backend (bypasses Metamask ghost transaction issues)
+     */
+    public function mintViaBackend(int $id): JsonResponse
+    {
+        $certificate = Certificate::findOrFail($id);
+
+        if ($certificate->token_id) {
+            return response()->json([
+                'success' => true,
+                'message' => 'Already minted',
+                'token_id' => $certificate->token_id
+            ]);
+        }
+
+        if (!$certificate->ipfs_cid) {
+            return response()->json(['error' => 'Missing IPFS data'], 400);
+        }
+
+        try {
+            $contractAddress = env('CERTNFT_ADDRESS', '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512');
+            $recipient = $certificate->recipient_address ?: '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266';
+            $cid = $certificate->ipfs_cid;
+
+            // Create mint script in cert-contracts directory where ethers is installed
+            $contractsDir = base_path('../cert-contracts');
+            $scriptPath = "{$contractsDir}/scripts/temp-mint.js";
+            
+            $mintScript = <<<JS
+const { ethers } = require('ethers');
+const provider = new ethers.JsonRpcProvider('http://127.0.0.1:8545');
+const wallet = new ethers.Wallet('0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80', provider);
+const abi = ['function mint(address to, string calldata ipfsCid) external returns (uint256)', 'event Transfer(address indexed from, address indexed to, uint256 indexed tokenId)'];
+const nft = new ethers.Contract('{$contractAddress}', abi, wallet);
+(async () => {
+    try {
+        const tx = await nft.mint('{$recipient}', '{$cid}');
+        const receipt = await tx.wait();
+        for (const log of receipt.logs) {
+            try {
+                const parsed = nft.interface.parseLog(log);
+                if (parsed && parsed.name === 'Transfer') {
+                    console.log(JSON.stringify({ tokenId: Number(parsed.args.tokenId), hash: tx.hash }));
+                    process.exit(0);
+                }
+            } catch {}
+        }
+        console.log(JSON.stringify({ error: 'No Transfer event found' }));
+    } catch (e) {
+        console.log(JSON.stringify({ error: e.message }));
+    }
+})();
+JS;
+
+            file_put_contents($scriptPath, $mintScript);
+
+            $output = shell_exec("cd {$contractsDir} && node scripts/temp-mint.js 2>&1");
+            unlink($scriptPath);
+
+            Log::info("Mint output: " . $output);
+
+            $result = json_decode(trim($output), true);
+
+            if (!$result || isset($result['error'])) {
+                throw new \Exception($result['error'] ?? 'Minting failed: ' . $output);
+            }
+
+            // Update certificate
+            $certificate->token_id = $result['tokenId'];
+            $certificate->on_chain_id = $result['tokenId'];
+            $certificate->transaction_hash = $result['hash'];
+            $certificate->save();
+
+            return response()->json([
+                'success' => true,
+                'token_id' => $result['tokenId'],
+                'transaction_hash' => $result['hash']
+            ]);
+
+        } catch (\Exception $e) {
+            Log::error("Mint error: " . $e->getMessage());
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
+    }
 }
 
 

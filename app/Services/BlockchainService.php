@@ -131,7 +131,7 @@ class BlockchainService
     /**
      * Extract token ID from transaction receipt
      */
-    private function getTokenIdFromReceipt(string $txHash): ?int
+    public function getTokenIdFromReceipt(string $txHash): ?int
     {
         set_time_limit(120); // Give enough time for blockchain confirmation
         try {

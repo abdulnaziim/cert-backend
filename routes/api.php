@@ -11,6 +11,7 @@ Route::post('/certificates/verify', [CertificatesController::class, 'verify']);
 Route::get('/wallet/{address}/certificates', [CertificatesController::class, 'getWalletNFTs']);
 Route::post('/certificates/sync', [CertificatesController::class, 'sync']);
 Route::post('/certificates/{id}/confirm', [CertificatesController::class, 'confirm']);
+Route::post('/certificates/{id}/mint', [CertificatesController::class, 'mintViaBackend']);
 
 
 
