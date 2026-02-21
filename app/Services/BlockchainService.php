@@ -9,16 +9,20 @@ use Illuminate\Support\Facades\Log;
 class BlockchainService
 {
     private ?string $rpcUrl;
+    private ?string $sepoliaRpcUrl;
     private ?string $privateKey;
     private ?string $certContractAddress;
     private ?string $certNftContractAddress;
+    private ?string $sepoliaNftContractAddress;
 
     public function __construct()
     {
         $this->rpcUrl = (string) config('services.blockchain.rpc_url', 'http://localhost:8545');
+        $this->sepoliaRpcUrl = (string) config('services.blockchain.sepolia_rpc_url', 'https://ethereum-sepolia-rpc.publicnode.com');
         $this->privateKey = (string) config('services.blockchain.private_key', '');
         $this->certContractAddress = (string) config('services.blockchain.cert_contract_address', '');
         $this->certNftContractAddress = (string) config('services.blockchain.cert_nft_contract_address', '');
+        $this->sepoliaNftContractAddress = (string) config('services.blockchain.sepolia_nft_contract_address', '');
     }
 
     /**
@@ -134,16 +138,35 @@ class BlockchainService
     public function getTokenIdFromReceipt(string $txHash): ?int
     {
         set_time_limit(120); // Give enough time for blockchain confirmation
+        
+        // Try both local and Sepolia RPC
+        $rpcUrls = array_filter([$this->rpcUrl, $this->sepoliaRpcUrl]);
+        
+        foreach ($rpcUrls as $rpcUrl) {
+            $tokenId = $this->getTokenIdFromReceiptWithRpc($txHash, $rpcUrl);
+            if ($tokenId !== null) {
+                return $tokenId;
+            }
+        }
+        
+        return null;
+    }
+    
+    /**
+     * Extract token ID from transaction receipt using specific RPC
+     */
+    private function getTokenIdFromReceiptWithRpc(string $txHash, string $rpcUrl): ?int
+    {
         try {
-            // Poll for receipt (up to 60 seconds)
-            $maxAttempts = 30;
+            // For sync operations, don't poll excessively - just check once
+            $maxAttempts = ($rpcUrl === $this->sepoliaRpcUrl) ? 3 : 10;
             $attempt = 0;
             $receipt = null;
 
             while ($attempt < $maxAttempts && !$receipt) {
-                if ($attempt > 0) sleep(2);
+                if ($attempt > 0) sleep(1);
                 
-                $response = Http::post($this->rpcUrl, [
+                $response = Http::timeout(10)->post($rpcUrl, [
                     'jsonrpc' => '2.0',
                     'method' => 'eth_getTransactionReceipt',
                     'params' => [$txHash],
@@ -176,7 +199,7 @@ class BlockchainService
             
             return null;
         } catch (\Exception $e) {
-            Log::warning('Failed to extract token ID from receipt', ['error' => $e->getMessage()]);
+            Log::warning('Failed to extract token ID from receipt', ['rpc' => $rpcUrl, 'error' => $e->getMessage()]);
             return null;
         }
     }
@@ -187,27 +210,34 @@ class BlockchainService
             return false;
         }
 
-        try {
-            $response = Http::post($this->rpcUrl, [
-                'jsonrpc' => '2.0',
-                'method' => 'eth_getTransactionReceipt',
-                'params' => [$transactionHash],
-                'id' => 1,
-            ]);
+        // Try both local and Sepolia RPC
+        $rpcUrls = array_filter([$this->rpcUrl, $this->sepoliaRpcUrl]);
+        
+        foreach ($rpcUrls as $rpcUrl) {
+            try {
+                $response = Http::timeout(10)->post($rpcUrl, [
+                    'jsonrpc' => '2.0',
+                    'method' => 'eth_getTransactionReceipt',
+                    'params' => [$transactionHash],
+                    'id' => 1,
+                ]);
 
-            if ($response->successful()) {
-                $result = $response->json();
-                return isset($result['result']) && $result['result'] !== null;
+                if ($response->successful()) {
+                    $result = $response->json();
+                    if (isset($result['result']) && $result['result'] !== null) {
+                        return true;
+                    }
+                }
+            } catch (\Exception $e) {
+                Log::warning('Failed to verify transaction on RPC', [
+                    'rpc' => $rpcUrl,
+                    'error' => $e->getMessage(),
+                    'tx_hash' => $transactionHash,
+                ]);
             }
-
-            return false;
-        } catch (\Exception $e) {
-            Log::error('Failed to verify transaction', [
-                'error' => $e->getMessage(),
-                'tx_hash' => $transactionHash,
-            ]);
-            return false;
         }
+
+        return false;
     }
 
     /**
@@ -371,10 +401,16 @@ class BlockchainService
     public function getWalletNFTData(string $address): array
     {
         $apiKey = config('services.etherscan.api_key');
-        $contractAddress = $this->certNftContractAddress;
+        // Prefer Sepolia contract address for Etherscan queries (since we're querying Sepolia chain)
+        $contractAddress = !empty($this->sepoliaNftContractAddress) 
+            ? $this->sepoliaNftContractAddress 
+            : $this->certNftContractAddress;
 
         if (empty($apiKey) || empty($contractAddress)) {
-            Log::debug('Etherscan API key or contract address not configured');
+            Log::debug('Etherscan API key or contract address not configured', [
+                'has_api_key' => !empty($apiKey),
+                'contract_address' => $contractAddress,
+            ]);
             return [];
         }
 
@@ -382,7 +418,7 @@ class BlockchainService
             // Etherscan API V2 URL
             $url = "https://api.etherscan.io/v2/api";
             
-            $response = Http::get($url, [
+            $response = Http::timeout(15)->get($url, [
                 'chainid' => '11155111', // Sepolia
                 'module' => 'account',
                 'action' => 'tokennfttx',
@@ -395,6 +431,7 @@ class BlockchainService
             if ($response->successful()) {
                 $data = $response->json();
                 if (isset($data['status']) && $data['status'] === '1' && is_array($data['result'])) {
+                    Log::info('Etherscan returned NFT data', ['count' => count($data['result'])]);
                     return $data['result'];
                 }
                 

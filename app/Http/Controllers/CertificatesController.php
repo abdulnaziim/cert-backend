@@ -34,6 +34,7 @@ class CertificatesController extends Controller
             'title' => ['required', 'string', 'max:255'],
             'description' => ['nullable', 'string'],
             'certificate_file' => ['nullable', 'file', 'mimes:pdf,jpeg,png,jpg', 'max:10240'], // Max 10MB
+            'template_type' => ['nullable', 'string', 'in:default,iedc,nss'],
             'skip_blockchain' => ['nullable', 'boolean'],
         ]);
 
@@ -48,17 +49,33 @@ class CertificatesController extends Controller
                 'issued_at' => now(),
             ]);
 
-            // Handle file upload if present
+            // Handle file upload or generation
             $fileCid = null;
             $mimeType = 'application/pdf'; // Default
+
             if ($request->hasFile('certificate_file')) {
+                // Manual Upload
                 $file = $request->file('certificate_file');
                 $mimeType = $file->getClientMimeType();
-                // Upload to IPFS
                 $fileCid = $ipfsService->uploadFile(
                     file_get_contents($file->getRealPath()),
                     $file->getClientOriginalName()
                 );
+            } else {
+                // Generate PDF from Template
+                $template = $data['template_type'] ?? 'default';
+                $viewName = 'certificates.' . $template;
+                
+                // Fallback if view doesn't exist
+                if (!view()->exists($viewName)) {
+                    $viewName = 'certificates.default';
+                }
+
+                $pdf = \PDF::loadView($viewName, ['certificate' => $certificate]);
+                $pdfContent = $pdf->output();
+                $fileName = 'certificate_' . $certificate->id . '.pdf';
+
+                $fileCid = $ipfsService->uploadFile($pdfContent, $fileName);
             }
 
             // Prepare metadata
