@@ -1,88 +1,1144 @@
-[Tue Jan 13 21:27:28 2026] PHP 8.4.12 Development Server (http://127.0.0.1:8000) started
-[Tue Jan 13 21:27:43 2026] 127.0.0.1:61530 Accepted
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61530 [204]: OPTIONS /api/certificates/sync
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61530 Closing
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61531 Accepted
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61531 [200]: POST /api/certificates/sync
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61531 Closing
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61532 Accepted
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61532 [204]: OPTIONS /api/certificates/sync
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61532 Closing
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61533 Accepted
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61533 [200]: POST /api/certificates/sync
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61533 Closing
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61534 Accepted
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61534 [204]: OPTIONS /api/certificates/sync
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61534 Closing
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61535 Accepted
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61535 [200]: POST /api/certificates/sync
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61535 Closing
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61536 Accepted
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61536 [204]: OPTIONS /api/certificates/sync
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61536 Closing
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61537 Accepted
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61537 [200]: POST /api/certificates/sync
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61537 Closing
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61538 Accepted
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61538 [200]: GET /api/certificates
-[Tue Jan 13 21:27:44 2026] 127.0.0.1:61538 Closing
-[Tue Jan 13 21:27:46 2026] 127.0.0.1:61539 Accepted
-[Tue Jan 13 21:27:46 2026] 127.0.0.1:61540 Accepted
-[Tue Jan 13 21:27:46 2026] 127.0.0.1:61539 [200]: GET /api/certificates
-[Tue Jan 13 21:27:46 2026] 127.0.0.1:61539 Closing
-[Tue Jan 13 21:27:46 2026] 127.0.0.1:61540 [200]: GET /api/certificates
-[Tue Jan 13 21:27:46 2026] 127.0.0.1:61540 Closing
-[Tue Jan 13 21:27:58 2026] 127.0.0.1:61567 Accepted
-[Tue Jan 13 21:27:58 2026] 127.0.0.1:61568 Accepted
-[Tue Jan 13 21:27:58 2026] 127.0.0.1:61567 [200]: GET /api/certificates
-[Tue Jan 13 21:27:58 2026] 127.0.0.1:61567 Closing
-[Tue Jan 13 21:27:58 2026] 127.0.0.1:61568 [200]: GET /api/certificates
-[Tue Jan 13 21:27:58 2026] 127.0.0.1:61568 Closing
-[Tue Jan 13 21:28:00 2026] 127.0.0.1:61574 Accepted
-[Tue Jan 13 21:28:00 2026] 127.0.0.1:61575 Accepted
-[Tue Jan 13 21:28:00 2026] 127.0.0.1:61574 [200]: GET /api/certificates
-[Tue Jan 13 21:28:00 2026] 127.0.0.1:61574 Closing
-[Tue Jan 13 21:28:00 2026] 127.0.0.1:61575 [200]: GET /api/certificates
-[Tue Jan 13 21:28:00 2026] 127.0.0.1:61575 Closing
-[Tue Jan 13 21:28:02 2026] 127.0.0.1:61576 Accepted
-[Tue Jan 13 21:28:02 2026] 127.0.0.1:61577 Accepted
-[Tue Jan 13 21:28:02 2026] 127.0.0.1:61576 [200]: GET /api/certificates
-[Tue Jan 13 21:28:02 2026] 127.0.0.1:61576 Closing
-[Tue Jan 13 21:28:02 2026] 127.0.0.1:61577 [200]: GET /api/certificates
-[Tue Jan 13 21:28:02 2026] 127.0.0.1:61577 Closing
-[Tue Jan 13 21:28:15 2026] 127.0.0.1:61599 Accepted
-[Tue Jan 13 21:28:15 2026] 127.0.0.1:61600 Accepted
-[Tue Jan 13 21:28:15 2026] 127.0.0.1:61599 [200]: GET /api/certificates
-[Tue Jan 13 21:28:15 2026] 127.0.0.1:61599 Closing
-[Tue Jan 13 21:28:15 2026] 127.0.0.1:61600 [200]: GET /api/certificates
-[Tue Jan 13 21:28:15 2026] 127.0.0.1:61600 Closing
-[Tue Jan 13 21:28:20 2026] 127.0.0.1:61605 Accepted
-[Tue Jan 13 21:28:20 2026] 127.0.0.1:61606 Accepted
-[Tue Jan 13 21:28:20 2026] 127.0.0.1:61605 [200]: GET /api/certificates
-[Tue Jan 13 21:28:20 2026] 127.0.0.1:61605 Closing
-[Tue Jan 13 21:28:20 2026] 127.0.0.1:61606 [200]: GET /api/certificates
-[Tue Jan 13 21:28:20 2026] 127.0.0.1:61606 Closing
-[Tue Jan 13 21:30:34 2026] 127.0.0.1:62762 Accepted
-[Tue Jan 13 21:30:34 2026] 127.0.0.1:62762 [200]: GET /api/certificates
-[Tue Jan 13 21:30:34 2026] 127.0.0.1:62762 Closing
-[Tue Jan 13 21:30:34 2026] 127.0.0.1:62763 Accepted
-[Tue Jan 13 21:30:34 2026] 127.0.0.1:62763 [200]: GET /api/certificates
-[Tue Jan 13 21:30:34 2026] 127.0.0.1:62763 Closing
-[Tue Jan 13 21:30:35 2026] 127.0.0.1:62772 Accepted
-[Tue Jan 13 21:30:35 2026] 127.0.0.1:62773 Accepted
-[Tue Jan 13 21:30:35 2026] 127.0.0.1:62772 [200]: GET /api/certificates
-[Tue Jan 13 21:30:35 2026] 127.0.0.1:62772 Closing
-[Tue Jan 13 21:30:35 2026] 127.0.0.1:62773 [200]: GET /api/certificates
-[Tue Jan 13 21:30:35 2026] 127.0.0.1:62773 Closing
-[Tue Jan 13 21:30:50 2026] 127.0.0.1:62906 Accepted
-[Tue Jan 13 21:30:50 2026] 127.0.0.1:62907 Accepted
-[Tue Jan 13 21:30:50 2026] 127.0.0.1:62906 [200]: GET /api/certificates
-[Tue Jan 13 21:30:50 2026] 127.0.0.1:62906 Closing
-[Tue Jan 13 21:30:50 2026] 127.0.0.1:62907 [200]: GET /api/certificates
-[Tue Jan 13 21:30:50 2026] 127.0.0.1:62907 Closing
-[Tue Jan 13 21:30:52 2026] 127.0.0.1:62936 Accepted
-[Tue Jan 13 21:30:52 2026] 127.0.0.1:62936 [200]: GET /api/certificates
-[Tue Jan 13 21:30:52 2026] 127.0.0.1:62936 Closing
-[Tue Jan 13 21:30:52 2026] 127.0.0.1:62937 Accepted
-[Tue Jan 13 21:30:52 2026] 127.0.0.1:62937 [200]: GET /api/certificates
-[Tue Jan 13 21:30:52 2026] 127.0.0.1:62937 Closing
+[Tue Jan 13 23:03:49 2026] PHP 8.4.12 Development Server (http://127.0.0.1:8000) started
+[Tue Jan 13 23:05:30 2026] 127.0.0.1:49294 Accepted
+[Tue Jan 13 23:05:30 2026] 127.0.0.1:49294 [200]: GET /api/certificates
+[Tue Jan 13 23:05:30 2026] 127.0.0.1:49294 Closing
+[Tue Jan 13 23:05:30 2026] 127.0.0.1:49295 Accepted
+[Tue Jan 13 23:05:30 2026] 127.0.0.1:49295 [200]: GET /api/certificates
+[Tue Jan 13 23:05:30 2026] 127.0.0.1:49295 Closing
+[Tue Jan 13 23:05:31 2026] 127.0.0.1:49308 Accepted
+[Tue Jan 13 23:05:31 2026] 127.0.0.1:49309 Accepted
+[Tue Jan 13 23:05:31 2026] 127.0.0.1:49308 [200]: GET /api/certificates
+[Tue Jan 13 23:05:31 2026] 127.0.0.1:49308 Closing
+[Tue Jan 13 23:05:31 2026] 127.0.0.1:49309 [200]: GET /api/certificates
+[Tue Jan 13 23:05:31 2026] 127.0.0.1:49309 Closing
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49318 Accepted
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49318 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49318 Closing
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49319 Accepted
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49319 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49319 Closing
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49320 Accepted
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49320 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49320 Closing
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49321 Accepted
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49321 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49321 Closing
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49326 Accepted
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49326 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49326 Closing
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49327 Accepted
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49327 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49327 Closing
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49328 Accepted
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49328 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49328 Closing
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49329 Accepted
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49329 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49329 Closing
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49330 Accepted
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49330 [200]: GET /api/certificates
+[Tue Jan 13 23:05:32 2026] 127.0.0.1:49330 Closing
+[Tue Jan 13 23:05:37 2026] 127.0.0.1:49364 Accepted
+[Tue Jan 13 23:05:37 2026] 127.0.0.1:49364 [200]: GET /api/certificates
+[Tue Jan 13 23:05:37 2026] 127.0.0.1:49364 Closing
+[Tue Jan 13 23:05:37 2026] 127.0.0.1:49365 Accepted
+[Tue Jan 13 23:05:37 2026] 127.0.0.1:49365 [200]: GET /api/certificates
+[Tue Jan 13 23:05:37 2026] 127.0.0.1:49365 Closing
+[Tue Jan 13 23:06:08 2026] 127.0.0.1:49634 Accepted
+[Tue Jan 13 23:06:15 2026] 127.0.0.1:49634 [201]: POST /api/certificates
+[Tue Jan 13 23:06:15 2026] 127.0.0.1:49634 Closing
+[Tue Jan 13 23:06:36 2026] 127.0.0.1:49932 Accepted
+[Tue Jan 13 23:06:36 2026] 127.0.0.1:49932 [204]: OPTIONS /api/certificates/1/confirm
+[Tue Jan 13 23:06:36 2026] 127.0.0.1:49932 Closing
+[Tue Jan 13 23:06:36 2026] 127.0.0.1:49933 Accepted
+[Tue Jan 13 23:06:38 2026] 127.0.0.1:49933 [200]: POST /api/certificates/1/confirm
+[Tue Jan 13 23:06:38 2026] 127.0.0.1:49933 Closing
+[Tue Jan 13 23:06:38 2026] 127.0.0.1:49943 Accepted
+[Tue Jan 13 23:06:38 2026] 127.0.0.1:49943 [200]: GET /api/certificates
+[Tue Jan 13 23:06:38 2026] 127.0.0.1:49943 Closing
+[Tue Jan 13 23:06:40 2026] 127.0.0.1:49968 Accepted
+[Tue Jan 13 23:06:40 2026] 127.0.0.1:49969 Accepted
+[Tue Jan 13 23:06:40 2026] 127.0.0.1:49968 [200]: GET /api/certificates
+[Tue Jan 13 23:06:40 2026] 127.0.0.1:49968 Closing
+[Tue Jan 13 23:06:40 2026] 127.0.0.1:49969 [200]: GET /api/certificates
+[Tue Jan 13 23:06:40 2026] 127.0.0.1:49969 Closing
+[Tue Jan 13 23:06:42 2026] 127.0.0.1:49986 Accepted
+[Tue Jan 13 23:06:43 2026] 127.0.0.1:49986 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:06:43 2026] 127.0.0.1:49986 Closing
+[Tue Jan 13 23:06:43 2026] 127.0.0.1:49987 Accepted
+[Tue Jan 13 23:06:43 2026] 127.0.0.1:49987 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:06:43 2026] 127.0.0.1:49987 Closing
+[Tue Jan 13 23:06:43 2026] 127.0.0.1:49994 Accepted
+[Tue Jan 13 23:06:43 2026] 127.0.0.1:49994 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:06:43 2026] 127.0.0.1:49994 Closing
+[Tue Jan 13 23:06:43 2026] 127.0.0.1:49995 Accepted
+[Tue Jan 13 23:06:44 2026] 127.0.0.1:49995 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:06:44 2026] 127.0.0.1:49995 Closing
+[Tue Jan 13 23:06:44 2026] 127.0.0.1:50001 Accepted
+[Tue Jan 13 23:06:44 2026] 127.0.0.1:50001 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:06:44 2026] 127.0.0.1:50001 Closing
+[Tue Jan 13 23:06:44 2026] 127.0.0.1:50002 Accepted
+[Tue Jan 13 23:06:44 2026] 127.0.0.1:50002 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:06:44 2026] 127.0.0.1:50002 Closing
+[Tue Jan 13 23:06:44 2026] 127.0.0.1:50008 Accepted
+[Tue Jan 13 23:06:44 2026] 127.0.0.1:50008 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:06:44 2026] 127.0.0.1:50008 Closing
+[Tue Jan 13 23:06:44 2026] 127.0.0.1:50009 Accepted
+[Tue Jan 13 23:06:45 2026] 127.0.0.1:50009 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:06:45 2026] 127.0.0.1:50009 Closing
+[Tue Jan 13 23:06:45 2026] 127.0.0.1:50023 Accepted
+[Tue Jan 13 23:06:45 2026] 127.0.0.1:50023 [200]: GET /api/certificates
+[Tue Jan 13 23:06:45 2026] 127.0.0.1:50023 Closing
+[Tue Jan 13 23:06:50 2026] 127.0.0.1:50069 Accepted
+[Tue Jan 13 23:06:50 2026] 127.0.0.1:50069 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:06:50 2026] 127.0.0.1:50069 Closing
+[Tue Jan 13 23:06:50 2026] 127.0.0.1:50070 Accepted
+[Tue Jan 13 23:06:51 2026] 127.0.0.1:50070 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:06:51 2026] 127.0.0.1:50070 Closing
+[Tue Jan 13 23:06:51 2026] 127.0.0.1:50090 Accepted
+[Tue Jan 13 23:06:51 2026] 127.0.0.1:50090 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:06:51 2026] 127.0.0.1:50090 Closing
+[Tue Jan 13 23:06:51 2026] 127.0.0.1:50091 Accepted
+[Tue Jan 13 23:06:52 2026] 127.0.0.1:50091 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:06:52 2026] 127.0.0.1:50091 Closing
+[Tue Jan 13 23:06:52 2026] 127.0.0.1:50102 Accepted
+[Tue Jan 13 23:06:52 2026] 127.0.0.1:50102 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:06:52 2026] 127.0.0.1:50102 Closing
+[Tue Jan 13 23:06:52 2026] 127.0.0.1:50103 Accepted
+[Tue Jan 13 23:06:55 2026] 127.0.0.1:50103 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:06:55 2026] 127.0.0.1:50103 Closing
+[Tue Jan 13 23:06:55 2026] 127.0.0.1:50128 Accepted
+[Tue Jan 13 23:06:55 2026] 127.0.0.1:50128 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:06:55 2026] 127.0.0.1:50128 Closing
+[Tue Jan 13 23:06:55 2026] 127.0.0.1:50129 Accepted
+[Tue Jan 13 23:06:56 2026] 127.0.0.1:50129 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:06:56 2026] 127.0.0.1:50129 Closing
+[Tue Jan 13 23:06:56 2026] 127.0.0.1:50136 Accepted
+[Tue Jan 13 23:06:56 2026] 127.0.0.1:50136 [200]: GET /api/certificates
+[Tue Jan 13 23:06:56 2026] 127.0.0.1:50136 Closing
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52098 Accepted
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52098 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52098 Closing
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52099 Accepted
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52099 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52099 Closing
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52100 Accepted
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52100 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52100 Closing
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52101 Accepted
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52101 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52101 Closing
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52102 Accepted
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52102 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52102 Closing
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52103 Accepted
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52103 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52103 Closing
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52104 Accepted
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52104 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52104 Closing
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52105 Accepted
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52105 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52105 Closing
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52106 Accepted
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52106 [200]: GET /api/certificates
+[Tue Jan 13 23:10:26 2026] 127.0.0.1:52106 Closing
+[Tue Jan 13 23:13:18 2026] 127.0.0.1:53650 Accepted
+[Tue Jan 13 23:13:18 2026] 127.0.0.1:53650 [200]: GET /api/certificates
+[Tue Jan 13 23:13:18 2026] 127.0.0.1:53650 Closing
+[Tue Jan 13 23:13:18 2026] 127.0.0.1:53651 Accepted
+[Tue Jan 13 23:13:18 2026] 127.0.0.1:53651 [200]: GET /api/certificates
+[Tue Jan 13 23:13:18 2026] 127.0.0.1:53651 Closing
+[Tue Jan 13 23:13:20 2026] 127.0.0.1:53664 Accepted
+[Tue Jan 13 23:13:20 2026] 127.0.0.1:53664 [200]: GET /api/certificates
+[Tue Jan 13 23:13:20 2026] 127.0.0.1:53664 Closing
+[Tue Jan 13 23:13:20 2026] 127.0.0.1:53665 Accepted
+[Tue Jan 13 23:13:20 2026] 127.0.0.1:53665 [200]: GET /api/certificates
+[Tue Jan 13 23:13:20 2026] 127.0.0.1:53665 Closing
+[Tue Jan 13 23:17:31 2026] 127.0.0.1:55930 Accepted
+[Tue Jan 13 23:17:31 2026] 127.0.0.1:55930 [200]: GET /api/certificates
+[Tue Jan 13 23:17:31 2026] 127.0.0.1:55930 Closing
+[Tue Jan 13 23:17:31 2026] 127.0.0.1:55931 Accepted
+[Tue Jan 13 23:17:31 2026] 127.0.0.1:55931 [200]: GET /api/certificates
+[Tue Jan 13 23:17:31 2026] 127.0.0.1:55931 Closing
+[Tue Jan 13 23:17:32 2026] 127.0.0.1:55940 Accepted
+[Tue Jan 13 23:17:32 2026] 127.0.0.1:55940 [200]: GET /api/certificates
+[Tue Jan 13 23:17:32 2026] 127.0.0.1:55940 Closing
+[Tue Jan 13 23:17:32 2026] 127.0.0.1:55941 Accepted
+[Tue Jan 13 23:17:32 2026] 127.0.0.1:55941 [200]: GET /api/certificates
+[Tue Jan 13 23:17:32 2026] 127.0.0.1:55941 Closing
+[Tue Jan 13 23:17:37 2026] 127.0.0.1:55979 Accepted
+[Tue Jan 13 23:17:37 2026] 127.0.0.1:55980 Accepted
+[Tue Jan 13 23:17:37 2026] 127.0.0.1:55979 [200]: GET /api/certificates
+[Tue Jan 13 23:17:37 2026] 127.0.0.1:55979 Closing
+[Tue Jan 13 23:17:37 2026] 127.0.0.1:55980 [200]: GET /api/certificates
+[Tue Jan 13 23:17:37 2026] 127.0.0.1:55980 Closing
+[Tue Jan 13 23:18:35 2026] 127.0.0.1:56522 Accepted
+[Tue Jan 13 23:18:40 2026] 127.0.0.1:56522 [201]: POST /api/certificates
+[Tue Jan 13 23:18:40 2026] 127.0.0.1:56522 Closing
+[Tue Jan 13 23:18:51 2026] 127.0.0.1:56746 Accepted
+[Tue Jan 13 23:18:51 2026] 127.0.0.1:56746 [204]: OPTIONS /api/certificates/2/confirm
+[Tue Jan 13 23:18:51 2026] 127.0.0.1:56746 Closing
+[Tue Jan 13 23:18:51 2026] 127.0.0.1:56747 Accepted
+[Tue Jan 13 23:18:52 2026] 127.0.0.1:56747 [200]: POST /api/certificates/2/confirm
+[Tue Jan 13 23:18:52 2026] 127.0.0.1:56747 Closing
+[Tue Jan 13 23:18:52 2026] 127.0.0.1:56768 Accepted
+[Tue Jan 13 23:18:52 2026] 127.0.0.1:56768 [200]: GET /api/certificates
+[Tue Jan 13 23:18:52 2026] 127.0.0.1:56768 Closing
+[Tue Jan 13 23:18:55 2026] 127.0.0.1:56803 Accepted
+[Tue Jan 13 23:18:55 2026] 127.0.0.1:56803 [200]: GET /api/certificates
+[Tue Jan 13 23:18:55 2026] 127.0.0.1:56803 Closing
+[Tue Jan 13 23:18:55 2026] 127.0.0.1:56804 Accepted
+[Tue Jan 13 23:18:55 2026] 127.0.0.1:56804 [200]: GET /api/certificates
+[Tue Jan 13 23:18:55 2026] 127.0.0.1:56804 Closing
+[Tue Jan 13 23:18:57 2026] 127.0.0.1:56830 Accepted
+[Tue Jan 13 23:18:57 2026] 127.0.0.1:56830 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:18:57 2026] 127.0.0.1:56830 Closing
+[Tue Jan 13 23:18:57 2026] 127.0.0.1:56831 Accepted
+[Tue Jan 13 23:18:58 2026] 127.0.0.1:56831 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:18:58 2026] 127.0.0.1:56831 Closing
+[Tue Jan 13 23:18:58 2026] 127.0.0.1:56842 Accepted
+[Tue Jan 13 23:18:58 2026] 127.0.0.1:56842 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:18:58 2026] 127.0.0.1:56842 Closing
+[Tue Jan 13 23:18:58 2026] 127.0.0.1:56843 Accepted
+[Tue Jan 13 23:18:59 2026] 127.0.0.1:56843 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:18:59 2026] 127.0.0.1:56843 Closing
+[Tue Jan 13 23:18:59 2026] 127.0.0.1:56853 Accepted
+[Tue Jan 13 23:18:59 2026] 127.0.0.1:56853 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:18:59 2026] 127.0.0.1:56853 Closing
+[Tue Jan 13 23:18:59 2026] 127.0.0.1:56854 Accepted
+[Tue Jan 13 23:18:59 2026] 127.0.0.1:56854 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:18:59 2026] 127.0.0.1:56854 Closing
+[Tue Jan 13 23:18:59 2026] 127.0.0.1:56864 Accepted
+[Tue Jan 13 23:18:59 2026] 127.0.0.1:56864 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:18:59 2026] 127.0.0.1:56864 Closing
+[Tue Jan 13 23:18:59 2026] 127.0.0.1:56865 Accepted
+[Tue Jan 13 23:19:00 2026] 127.0.0.1:56865 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:19:00 2026] 127.0.0.1:56865 Closing
+[Tue Jan 13 23:19:00 2026] 127.0.0.1:56875 Accepted
+[Tue Jan 13 23:19:00 2026] 127.0.0.1:56875 [200]: GET /api/certificates
+[Tue Jan 13 23:19:00 2026] 127.0.0.1:56875 Closing
+[Tue Jan 13 23:19:09 2026] 127.0.0.1:56940 Accepted
+[Tue Jan 13 23:19:09 2026] 127.0.0.1:56940 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:19:09 2026] 127.0.0.1:56940 Closing
+[Tue Jan 13 23:19:09 2026] 127.0.0.1:56941 Accepted
+[Tue Jan 13 23:19:09 2026] 127.0.0.1:56941 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:19:09 2026] 127.0.0.1:56941 Closing
+[Tue Jan 13 23:19:09 2026] 127.0.0.1:56951 Accepted
+[Tue Jan 13 23:19:09 2026] 127.0.0.1:56951 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:19:09 2026] 127.0.0.1:56951 Closing
+[Tue Jan 13 23:19:09 2026] 127.0.0.1:56952 Accepted
+[Tue Jan 13 23:19:10 2026] 127.0.0.1:56952 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:19:10 2026] 127.0.0.1:56952 Closing
+[Tue Jan 13 23:19:10 2026] 127.0.0.1:56962 Accepted
+[Tue Jan 13 23:19:10 2026] 127.0.0.1:56962 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:19:10 2026] 127.0.0.1:56962 Closing
+[Tue Jan 13 23:19:10 2026] 127.0.0.1:56963 Accepted
+[Tue Jan 13 23:19:11 2026] 127.0.0.1:56963 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:19:11 2026] 127.0.0.1:56963 Closing
+[Tue Jan 13 23:19:11 2026] 127.0.0.1:56965 Accepted
+[Tue Jan 13 23:19:11 2026] 127.0.0.1:56965 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:19:11 2026] 127.0.0.1:56965 Closing
+[Tue Jan 13 23:19:11 2026] 127.0.0.1:56966 Accepted
+[Tue Jan 13 23:19:11 2026] 127.0.0.1:56966 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:19:11 2026] 127.0.0.1:56966 Closing
+[Tue Jan 13 23:19:11 2026] 127.0.0.1:56976 Accepted
+[Tue Jan 13 23:19:11 2026] 127.0.0.1:56976 [200]: GET /api/certificates
+[Tue Jan 13 23:19:11 2026] 127.0.0.1:56976 Closing
+[Tue Jan 13 23:20:06 2026] 127.0.0.1:57459 Accepted
+[Tue Jan 13 23:20:06 2026] 127.0.0.1:57460 Accepted
+[Tue Jan 13 23:20:07 2026] 127.0.0.1:57459 [200]: GET /api/certificates
+[Tue Jan 13 23:20:07 2026] 127.0.0.1:57459 Closing
+[Tue Jan 13 23:20:07 2026] 127.0.0.1:57460 [200]: GET /api/certificates
+[Tue Jan 13 23:20:07 2026] 127.0.0.1:57460 Closing
+[Tue Jan 13 23:26:35 2026] 127.0.0.1:60951 Accepted
+[Tue Jan 13 23:26:35 2026] 127.0.0.1:60952 Accepted
+[Tue Jan 13 23:26:35 2026] 127.0.0.1:60951 [200]: GET /api/certificates
+[Tue Jan 13 23:26:35 2026] 127.0.0.1:60951 Closing
+[Tue Jan 13 23:26:35 2026] 127.0.0.1:60952 [200]: GET /api/certificates
+[Tue Jan 13 23:26:35 2026] 127.0.0.1:60952 Closing
+[Tue Jan 13 23:26:37 2026] 127.0.0.1:60969 Accepted
+[Tue Jan 13 23:26:37 2026] 127.0.0.1:60970 Accepted
+[Tue Jan 13 23:26:37 2026] 127.0.0.1:60969 [200]: GET /api/certificates
+[Tue Jan 13 23:26:37 2026] 127.0.0.1:60969 Closing
+[Tue Jan 13 23:26:37 2026] 127.0.0.1:60970 [200]: GET /api/certificates
+[Tue Jan 13 23:26:37 2026] 127.0.0.1:60970 Closing
+[Tue Jan 13 23:34:01 2026] 127.0.0.1:64720 Accepted
+[Tue Jan 13 23:34:01 2026] 127.0.0.1:64721 Accepted
+[Tue Jan 13 23:34:01 2026] 127.0.0.1:64720 [200]: GET /api/certificates
+[Tue Jan 13 23:34:01 2026] 127.0.0.1:64720 Closing
+[Tue Jan 13 23:34:01 2026] 127.0.0.1:64721 [200]: GET /api/certificates
+[Tue Jan 13 23:34:01 2026] 127.0.0.1:64721 Closing
+[Tue Jan 13 23:34:02 2026] 127.0.0.1:64730 Accepted
+[Tue Jan 13 23:34:02 2026] 127.0.0.1:64730 [200]: GET /api/certificates
+[Tue Jan 13 23:34:02 2026] 127.0.0.1:64730 Closing
+[Tue Jan 13 23:34:02 2026] 127.0.0.1:64731 Accepted
+[Tue Jan 13 23:34:02 2026] 127.0.0.1:64731 [200]: GET /api/certificates
+[Tue Jan 13 23:34:02 2026] 127.0.0.1:64731 Closing
+[Tue Jan 13 23:34:30 2026] 127.0.0.1:64978 Accepted
+[Tue Jan 13 23:34:30 2026] 127.0.0.1:64979 Accepted
+[Tue Jan 13 23:34:30 2026] 127.0.0.1:64978 [200]: GET /api/certificates
+[Tue Jan 13 23:34:30 2026] 127.0.0.1:64978 Closing
+[Tue Jan 13 23:34:30 2026] 127.0.0.1:64979 [200]: GET /api/certificates
+[Tue Jan 13 23:34:30 2026] 127.0.0.1:64979 Closing
+[Tue Jan 13 23:34:32 2026] 127.0.0.1:64990 Accepted
+[Tue Jan 13 23:34:32 2026] 127.0.0.1:64991 Accepted
+[Tue Jan 13 23:34:32 2026] 127.0.0.1:64990 [200]: GET /api/certificates
+[Tue Jan 13 23:34:32 2026] 127.0.0.1:64990 Closing
+[Tue Jan 13 23:34:32 2026] 127.0.0.1:64991 [200]: GET /api/certificates
+[Tue Jan 13 23:34:32 2026] 127.0.0.1:64991 Closing
+[Tue Jan 13 23:35:01 2026] 127.0.0.1:65261 Accepted
+[Tue Jan 13 23:35:01 2026] 127.0.0.1:65262 Accepted
+[Tue Jan 13 23:35:01 2026] 127.0.0.1:65261 [200]: GET /api/certificates
+[Tue Jan 13 23:35:01 2026] 127.0.0.1:65261 Closing
+[Tue Jan 13 23:35:01 2026] 127.0.0.1:65262 [200]: GET /api/certificates
+[Tue Jan 13 23:35:01 2026] 127.0.0.1:65262 Closing
+[Tue Jan 13 23:35:03 2026] 127.0.0.1:65279 Accepted
+[Tue Jan 13 23:35:03 2026] 127.0.0.1:65279 [200]: GET /api/certificates
+[Tue Jan 13 23:35:03 2026] 127.0.0.1:65279 Closing
+[Tue Jan 13 23:35:03 2026] 127.0.0.1:65280 Accepted
+[Tue Jan 13 23:35:03 2026] 127.0.0.1:65280 [200]: GET /api/certificates
+[Tue Jan 13 23:35:03 2026] 127.0.0.1:65280 Closing
+[Tue Jan 13 23:36:15 2026] 127.0.0.1:49625 Accepted
+[Tue Jan 13 23:36:15 2026] 127.0.0.1:49626 Accepted
+[Tue Jan 13 23:36:15 2026] 127.0.0.1:49625 [200]: GET /api/certificates
+[Tue Jan 13 23:36:15 2026] 127.0.0.1:49625 Closing
+[Tue Jan 13 23:36:15 2026] 127.0.0.1:49626 [200]: GET /api/certificates
+[Tue Jan 13 23:36:15 2026] 127.0.0.1:49626 Closing
+[Tue Jan 13 23:36:17 2026] 127.0.0.1:49644 Accepted
+[Tue Jan 13 23:36:17 2026] 127.0.0.1:49645 Accepted
+[Tue Jan 13 23:36:17 2026] 127.0.0.1:49644 [200]: GET /api/certificates
+[Tue Jan 13 23:36:17 2026] 127.0.0.1:49644 Closing
+[Tue Jan 13 23:36:17 2026] 127.0.0.1:49645 [200]: GET /api/certificates
+[Tue Jan 13 23:36:17 2026] 127.0.0.1:49645 Closing
+[Tue Jan 13 23:36:18 2026] 127.0.0.1:49656 Accepted
+[Tue Jan 13 23:36:18 2026] 127.0.0.1:49656 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:36:18 2026] 127.0.0.1:49656 Closing
+[Tue Jan 13 23:36:18 2026] 127.0.0.1:49657 Accepted
+[Tue Jan 13 23:36:19 2026] 127.0.0.1:49657 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:36:19 2026] 127.0.0.1:49657 Closing
+[Tue Jan 13 23:36:19 2026] 127.0.0.1:49668 Accepted
+[Tue Jan 13 23:36:19 2026] 127.0.0.1:49668 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:36:19 2026] 127.0.0.1:49668 Closing
+[Tue Jan 13 23:36:19 2026] 127.0.0.1:49669 Accepted
+[Tue Jan 13 23:36:20 2026] 127.0.0.1:49669 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:36:20 2026] 127.0.0.1:49669 Closing
+[Tue Jan 13 23:36:20 2026] 127.0.0.1:49686 Accepted
+[Tue Jan 13 23:36:20 2026] 127.0.0.1:49686 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:36:20 2026] 127.0.0.1:49686 Closing
+[Tue Jan 13 23:36:20 2026] 127.0.0.1:49689 Accepted
+[Tue Jan 13 23:36:21 2026] 127.0.0.1:49689 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:36:21 2026] 127.0.0.1:49689 Closing
+[Tue Jan 13 23:36:21 2026] 127.0.0.1:49700 Accepted
+[Tue Jan 13 23:36:21 2026] 127.0.0.1:49700 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:36:21 2026] 127.0.0.1:49700 Closing
+[Tue Jan 13 23:36:21 2026] 127.0.0.1:49701 Accepted
+[Tue Jan 13 23:36:22 2026] 127.0.0.1:49701 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:36:22 2026] 127.0.0.1:49701 Closing
+[Tue Jan 13 23:36:22 2026] 127.0.0.1:49703 Accepted
+[Tue Jan 13 23:36:22 2026] 127.0.0.1:49703 [200]: GET /api/certificates
+[Tue Jan 13 23:36:22 2026] 127.0.0.1:49703 Closing
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50727 Accepted
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50727 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50727 Closing
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50728 Accepted
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50728 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50728 Closing
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50729 Accepted
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50729 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50729 Closing
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50730 Accepted
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50730 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50730 Closing
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50731 Accepted
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50731 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50731 Closing
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50732 Accepted
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50732 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50732 Closing
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50733 Accepted
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50733 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50733 Closing
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50734 Accepted
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50734 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50734 Closing
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50735 Accepted
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50735 [200]: GET /api/certificates
+[Tue Jan 13 23:38:07 2026] 127.0.0.1:50735 Closing
+[Tue Jan 13 23:38:28 2026] 127.0.0.1:50931 Accepted
+[Tue Jan 13 23:38:28 2026] 127.0.0.1:50931 [200]: GET /api/certificates
+[Tue Jan 13 23:38:28 2026] 127.0.0.1:50931 Closing
+[Tue Jan 13 23:38:28 2026] 127.0.0.1:50932 Accepted
+[Tue Jan 13 23:38:28 2026] 127.0.0.1:50932 [200]: GET /api/certificates
+[Tue Jan 13 23:38:28 2026] 127.0.0.1:50932 Closing
+[Tue Jan 13 23:39:16 2026] 127.0.0.1:51400 Accepted
+[Tue Jan 13 23:39:23 2026] 127.0.0.1:51400 [201]: POST /api/certificates
+[Tue Jan 13 23:39:23 2026] 127.0.0.1:51400 Closing
+[Tue Jan 13 23:39:49 2026] 127.0.0.1:51742 Accepted
+[Tue Jan 13 23:39:49 2026] 127.0.0.1:51742 [204]: OPTIONS /api/certificates/3/confirm
+[Tue Jan 13 23:39:49 2026] 127.0.0.1:51742 Closing
+[Tue Jan 13 23:39:49 2026] 127.0.0.1:51743 Accepted
+[Tue Jan 13 23:39:51 2026] 127.0.0.1:51743 [200]: POST /api/certificates/3/confirm
+[Tue Jan 13 23:39:51 2026] 127.0.0.1:51743 Closing
+[Tue Jan 13 23:39:51 2026] 127.0.0.1:51764 Accepted
+[Tue Jan 13 23:39:51 2026] 127.0.0.1:51764 [200]: GET /api/certificates
+[Tue Jan 13 23:39:51 2026] 127.0.0.1:51764 Closing
+[Tue Jan 13 23:39:55 2026] 127.0.0.1:51800 Accepted
+[Tue Jan 13 23:39:55 2026] 127.0.0.1:51800 [200]: GET /api/certificates
+[Tue Jan 13 23:39:55 2026] 127.0.0.1:51800 Closing
+[Tue Jan 13 23:39:55 2026] 127.0.0.1:51801 Accepted
+[Tue Jan 13 23:39:55 2026] 127.0.0.1:51801 [200]: GET /api/certificates
+[Tue Jan 13 23:39:55 2026] 127.0.0.1:51801 Closing
+[Tue Jan 13 23:39:57 2026] 127.0.0.1:51822 Accepted
+[Tue Jan 13 23:39:57 2026] 127.0.0.1:51822 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:39:57 2026] 127.0.0.1:51822 Closing
+[Tue Jan 13 23:39:57 2026] 127.0.0.1:51823 Accepted
+[Tue Jan 13 23:39:58 2026] 127.0.0.1:51823 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:39:58 2026] 127.0.0.1:51823 Closing
+[Tue Jan 13 23:39:58 2026] 127.0.0.1:51835 Accepted
+[Tue Jan 13 23:39:58 2026] 127.0.0.1:51835 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:39:58 2026] 127.0.0.1:51835 Closing
+[Tue Jan 13 23:39:58 2026] 127.0.0.1:51836 Accepted
+[Tue Jan 13 23:39:59 2026] 127.0.0.1:51836 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:39:59 2026] 127.0.0.1:51836 Closing
+[Tue Jan 13 23:39:59 2026] 127.0.0.1:51848 Accepted
+[Tue Jan 13 23:39:59 2026] 127.0.0.1:51848 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:39:59 2026] 127.0.0.1:51848 Closing
+[Tue Jan 13 23:39:59 2026] 127.0.0.1:51849 Accepted
+[Tue Jan 13 23:40:00 2026] 127.0.0.1:51849 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:40:00 2026] 127.0.0.1:51849 Closing
+[Tue Jan 13 23:40:00 2026] 127.0.0.1:51861 Accepted
+[Tue Jan 13 23:40:00 2026] 127.0.0.1:51861 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:40:00 2026] 127.0.0.1:51861 Closing
+[Tue Jan 13 23:40:00 2026] 127.0.0.1:51862 Accepted
+[Tue Jan 13 23:40:01 2026] 127.0.0.1:51862 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:40:01 2026] 127.0.0.1:51862 Closing
+[Tue Jan 13 23:40:01 2026] 127.0.0.1:51874 Accepted
+[Tue Jan 13 23:40:01 2026] 127.0.0.1:51874 [200]: GET /api/certificates
+[Tue Jan 13 23:40:01 2026] 127.0.0.1:51874 Closing
+[Tue Jan 13 23:42:41 2026] 127.0.0.1:53346 Accepted
+[Tue Jan 13 23:42:41 2026] 127.0.0.1:53346 [404]: POST /api/certificates/3/mint
+[Tue Jan 13 23:42:41 2026] 127.0.0.1:53346 Closing
+[Tue Jan 13 23:43:07 2026] 127.0.0.1:53594 Accepted
+[Tue Jan 13 23:43:07 2026] 127.0.0.1:53594 [500]: POST /api/certificates/3/mint
+[Tue Jan 13 23:43:07 2026] 127.0.0.1:53594 Closing
+[Tue Jan 13 23:44:02 2026] 127.0.0.1:54110 Accepted
+[Tue Jan 13 23:44:02 2026] 127.0.0.1:54110 [200]: POST /api/certificates/3/mint
+[Tue Jan 13 23:44:02 2026] 127.0.0.1:54110 Closing
+[Tue Jan 13 23:48:00 2026] 127.0.0.1:56326 Accepted
+[Tue Jan 13 23:48:00 2026] 127.0.0.1:56327 Accepted
+[Tue Jan 13 23:48:00 2026] 127.0.0.1:56326 [200]: GET /api/certificates
+[Tue Jan 13 23:48:00 2026] 127.0.0.1:56326 Closing
+[Tue Jan 13 23:48:00 2026] 127.0.0.1:56327 [200]: GET /api/certificates
+[Tue Jan 13 23:48:00 2026] 127.0.0.1:56327 Closing
+[Tue Jan 13 23:48:02 2026] 127.0.0.1:56346 Accepted
+[Tue Jan 13 23:48:02 2026] 127.0.0.1:56346 [200]: GET /api/certificates
+[Tue Jan 13 23:48:02 2026] 127.0.0.1:56346 Closing
+[Tue Jan 13 23:48:02 2026] 127.0.0.1:56347 Accepted
+[Tue Jan 13 23:48:02 2026] 127.0.0.1:56347 [200]: GET /api/certificates
+[Tue Jan 13 23:48:02 2026] 127.0.0.1:56347 Closing
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56430 Accepted
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56430 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56430 Closing
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56431 Accepted
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56431 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56431 Closing
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56432 Accepted
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56432 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56432 Closing
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56433 Accepted
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56433 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56433 Closing
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56434 Accepted
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56434 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56434 Closing
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56435 Accepted
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56435 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56435 Closing
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56436 Accepted
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56436 [204]: OPTIONS /api/certificates/sync
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56436 Closing
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56437 Accepted
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56437 [200]: POST /api/certificates/sync
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56437 Closing
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56438 Accepted
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56438 [200]: GET /api/certificates
+[Tue Jan 13 23:48:11 2026] 127.0.0.1:56438 Closing
+[Tue Jan 13 23:48:16 2026] 127.0.0.1:56476 Accepted
+[Tue Jan 13 23:48:16 2026] 127.0.0.1:56476 [200]: GET /api/certificates
+[Tue Jan 13 23:48:16 2026] 127.0.0.1:56476 Closing
+[Tue Jan 13 23:48:16 2026] 127.0.0.1:56477 Accepted
+[Tue Jan 13 23:48:16 2026] 127.0.0.1:56477 [200]: GET /api/certificates
+[Tue Jan 13 23:48:16 2026] 127.0.0.1:56477 Closing
+[Tue Jan 13 23:50:11 2026] 127.0.0.1:57563 Accepted
+[Tue Jan 13 23:50:19 2026] 127.0.0.1:57563 [201]: POST /api/certificates
+[Tue Jan 13 23:50:19 2026] 127.0.0.1:57563 Closing
+[Tue Jan 13 23:50:39 2026] 127.0.0.1:57855 Accepted
+[Tue Jan 13 23:50:39 2026] 127.0.0.1:57855 [204]: OPTIONS /api/certificates/4/confirm
+[Tue Jan 13 23:50:39 2026] 127.0.0.1:57855 Closing
+[Tue Jan 13 23:50:39 2026] 127.0.0.1:57856 Accepted
+[Tue Jan 13 23:50:40 2026] 127.0.0.1:57856 [200]: POST /api/certificates/4/confirm
+[Tue Jan 13 23:50:40 2026] 127.0.0.1:57856 Closing
+[Tue Jan 13 23:50:40 2026] 127.0.0.1:57875 Accepted
+[Tue Jan 13 23:50:40 2026] 127.0.0.1:57875 [200]: GET /api/certificates
+[Tue Jan 13 23:50:40 2026] 127.0.0.1:57875 Closing
+[Tue Jan 13 23:50:43 2026] 127.0.0.1:57894 Accepted
+[Tue Jan 13 23:50:43 2026] 127.0.0.1:57895 Accepted
+[Tue Jan 13 23:50:43 2026] 127.0.0.1:57894 [200]: GET /api/certificates
+[Tue Jan 13 23:50:43 2026] 127.0.0.1:57894 Closing
+[Tue Jan 13 23:50:43 2026] 127.0.0.1:57895 [200]: GET /api/certificates
+[Tue Jan 13 23:50:43 2026] 127.0.0.1:57895 Closing
+[Tue Jan 13 23:51:18 2026] 127.0.0.1:58220 Accepted
+[Tue Jan 13 23:51:18 2026] 127.0.0.1:58220 [200]: GET /api/certificates
+[Tue Jan 13 23:51:18 2026] 127.0.0.1:58220 Closing
+[Tue Jan 13 23:51:18 2026] 127.0.0.1:58221 Accepted
+[Tue Jan 13 23:51:18 2026] 127.0.0.1:58221 [200]: GET /api/certificates
+[Tue Jan 13 23:51:18 2026] 127.0.0.1:58221 Closing
+[Tue Jan 13 23:52:03 2026] 127.0.0.1:58649 Accepted
+[Tue Jan 13 23:52:11 2026] 127.0.0.1:58649 [201]: POST /api/certificates
+[Tue Jan 13 23:52:11 2026] 127.0.0.1:58649 Closing
+[Tue Jan 13 23:52:28 2026] 127.0.0.1:58897 Accepted
+[Tue Jan 13 23:52:28 2026] 127.0.0.1:58897 [204]: OPTIONS /api/certificates/5/confirm
+[Tue Jan 13 23:52:28 2026] 127.0.0.1:58897 Closing
+[Tue Jan 13 23:52:28 2026] 127.0.0.1:58898 Accepted
+[Tue Jan 13 23:52:29 2026] 127.0.0.1:58898 [200]: POST /api/certificates/5/confirm
+[Tue Jan 13 23:52:29 2026] 127.0.0.1:58898 Closing
+[Tue Jan 13 23:52:29 2026] 127.0.0.1:58905 Accepted
+[Tue Jan 13 23:52:29 2026] 127.0.0.1:58905 [200]: GET /api/certificates
+[Tue Jan 13 23:52:29 2026] 127.0.0.1:58905 Closing
+[Tue Jan 13 23:52:31 2026] 127.0.0.1:58931 Accepted
+[Tue Jan 13 23:52:31 2026] 127.0.0.1:58932 Accepted
+[Tue Jan 13 23:52:31 2026] 127.0.0.1:58931 [200]: GET /api/certificates
+[Tue Jan 13 23:52:31 2026] 127.0.0.1:58931 Closing
+[Tue Jan 13 23:52:31 2026] 127.0.0.1:58932 [200]: GET /api/certificates
+[Tue Jan 13 23:52:31 2026] 127.0.0.1:58932 Closing
+[Tue Jan 13 23:53:08 2026] 127.0.0.1:59276 Accepted
+[Tue Jan 13 23:53:08 2026] 127.0.0.1:59276 [200]: GET /api/certificates
+[Tue Jan 13 23:53:08 2026] 127.0.0.1:59276 Closing
+[Tue Jan 13 23:53:08 2026] 127.0.0.1:59277 Accepted
+[Tue Jan 13 23:53:08 2026] 127.0.0.1:59277 [200]: GET /api/certificates
+[Tue Jan 13 23:53:08 2026] 127.0.0.1:59277 Closing
+[Tue Jan 13 23:53:10 2026] 127.0.0.1:59291 Accepted
+[Tue Jan 13 23:53:10 2026] 127.0.0.1:59292 Accepted
+[Tue Jan 13 23:53:10 2026] 127.0.0.1:59291 [200]: GET /api/certificates
+[Tue Jan 13 23:53:10 2026] 127.0.0.1:59291 Closing
+[Tue Jan 13 23:53:10 2026] 127.0.0.1:59292 [200]: GET /api/certificates
+[Tue Jan 13 23:53:10 2026] 127.0.0.1:59292 Closing
+[Tue Jan 13 23:55:04 2026] 127.0.0.1:60389 Accepted
+[Tue Jan 13 23:55:04 2026] 127.0.0.1:60389 [204]: OPTIONS /api/wallet/0xB316c66113e78a5781600296229F6551832e8D79/certificates
+[Tue Jan 13 23:55:04 2026] 127.0.0.1:60389 Closing
+[Tue Jan 13 23:55:04 2026] 127.0.0.1:60390 Accepted
+[Tue Jan 13 23:55:04 2026] 127.0.0.1:60390 [200]: GET /api/wallet/0xB316c66113e78a5781600296229F6551832e8D79/certificates
+[Tue Jan 13 23:55:04 2026] 127.0.0.1:60390 Closing
+[Tue Jan 13 23:55:20 2026] 127.0.0.1:60542 Accepted
+[Tue Jan 13 23:55:20 2026] 127.0.0.1:60542 [200]: GET /api/certificates
+[Tue Jan 13 23:55:20 2026] 127.0.0.1:60542 Closing
+[Tue Jan 13 23:55:20 2026] 127.0.0.1:60543 Accepted
+[Tue Jan 13 23:55:20 2026] 127.0.0.1:60543 [200]: GET /api/certificates
+[Tue Jan 13 23:55:20 2026] 127.0.0.1:60543 Closing
+[Tue Jan 13 23:55:21 2026] 127.0.0.1:60553 Accepted
+[Tue Jan 13 23:55:21 2026] 127.0.0.1:60553 [200]: GET /api/certificates
+[Tue Jan 13 23:55:21 2026] 127.0.0.1:60553 Closing
+[Tue Jan 13 23:55:21 2026] 127.0.0.1:60554 Accepted
+[Tue Jan 13 23:55:21 2026] 127.0.0.1:60554 [200]: GET /api/certificates
+[Tue Jan 13 23:55:21 2026] 127.0.0.1:60554 Closing
+[Tue Jan 13 23:55:25 2026] 127.0.0.1:60597 Accepted
+[Tue Jan 13 23:55:26 2026] 127.0.0.1:60597 [200]: GET /api/certificates
+[Tue Jan 13 23:55:26 2026] 127.0.0.1:60597 Closing
+[Tue Jan 13 23:55:26 2026] 127.0.0.1:60598 Accepted
+[Tue Jan 13 23:55:26 2026] 127.0.0.1:60598 [200]: GET /api/certificates
+[Tue Jan 13 23:55:26 2026] 127.0.0.1:60598 Closing
+[Tue Jan 13 23:55:34 2026] 127.0.0.1:60685 Accepted
+[Tue Jan 13 23:55:34 2026] 127.0.0.1:60685 [204]: OPTIONS /api/wallet/0xB316c66113e78a5781600296229F6551832e8D79/certificates
+[Tue Jan 13 23:55:34 2026] 127.0.0.1:60685 Closing
+[Tue Jan 13 23:55:34 2026] 127.0.0.1:60690 Accepted
+[Tue Jan 13 23:55:34 2026] 127.0.0.1:60690 [200]: GET /api/wallet/0xB316c66113e78a5781600296229F6551832e8D79/certificates
+[Tue Jan 13 23:55:34 2026] 127.0.0.1:60690 Closing
+[Tue Jan 13 23:57:31 2026] 127.0.0.1:61776 Accepted
+[Tue Jan 13 23:57:31 2026] 127.0.0.1:61777 Accepted
+[Tue Jan 13 23:57:31 2026] 127.0.0.1:61776 [200]: GET /api/certificates
+[Tue Jan 13 23:57:31 2026] 127.0.0.1:61776 Closing
+[Tue Jan 13 23:57:31 2026] 127.0.0.1:61777 [200]: GET /api/certificates
+[Tue Jan 13 23:57:31 2026] 127.0.0.1:61777 Closing
+[Tue Jan 13 23:57:32 2026] 127.0.0.1:61786 Accepted
+[Tue Jan 13 23:57:32 2026] 127.0.0.1:61787 Accepted
+[Tue Jan 13 23:57:32 2026] 127.0.0.1:61786 [200]: GET /api/certificates
+[Tue Jan 13 23:57:32 2026] 127.0.0.1:61786 Closing
+[Tue Jan 13 23:57:32 2026] 127.0.0.1:61787 [200]: GET /api/certificates
+[Tue Jan 13 23:57:32 2026] 127.0.0.1:61787 Closing
+[Wed Jan 14 00:03:25 2026] 127.0.0.1:65040 Accepted
+[Wed Jan 14 00:03:25 2026] 127.0.0.1:65041 Accepted
+[Wed Jan 14 00:03:25 2026] 127.0.0.1:65040 [200]: GET /api/certificates
+[Wed Jan 14 00:03:25 2026] 127.0.0.1:65040 Closing
+[Wed Jan 14 00:03:25 2026] 127.0.0.1:65041 [200]: GET /api/certificates
+[Wed Jan 14 00:03:25 2026] 127.0.0.1:65041 Closing
+[Wed Jan 14 00:03:27 2026] 127.0.0.1:65056 Accepted
+[Wed Jan 14 00:03:27 2026] 127.0.0.1:65056 [200]: GET /api/certificates
+[Wed Jan 14 00:03:27 2026] 127.0.0.1:65056 Closing
+[Wed Jan 14 00:03:27 2026] 127.0.0.1:65057 Accepted
+[Wed Jan 14 00:03:27 2026] 127.0.0.1:65057 [200]: GET /api/certificates
+[Wed Jan 14 00:03:27 2026] 127.0.0.1:65057 Closing
+[Wed Jan 14 00:03:39 2026] 127.0.0.1:65180 Accepted
+[Wed Jan 14 00:03:39 2026] 127.0.0.1:65180 [200]: GET /api/certificates
+[Wed Jan 14 00:03:39 2026] 127.0.0.1:65180 Closing
+[Wed Jan 14 00:03:39 2026] 127.0.0.1:65181 Accepted
+[Wed Jan 14 00:03:39 2026] 127.0.0.1:65181 [200]: GET /api/certificates
+[Wed Jan 14 00:03:39 2026] 127.0.0.1:65181 Closing
+[Wed Jan 14 00:03:45 2026] 127.0.0.1:65240 Accepted
+[Wed Jan 14 00:03:45 2026] 127.0.0.1:65240 [200]: GET /api/certificates
+[Wed Jan 14 00:03:45 2026] 127.0.0.1:65240 Closing
+[Wed Jan 14 00:03:45 2026] 127.0.0.1:65241 Accepted
+[Wed Jan 14 00:03:45 2026] 127.0.0.1:65241 [200]: GET /api/certificates
+[Wed Jan 14 00:03:45 2026] 127.0.0.1:65241 Closing
+[Wed Jan 14 00:05:06 2026] 127.0.0.1:49592 Accepted
+[Wed Jan 14 00:05:06 2026] 127.0.0.1:49593 Accepted
+[Wed Jan 14 00:05:06 2026] 127.0.0.1:49592 [200]: GET /api/certificates
+[Wed Jan 14 00:05:06 2026] 127.0.0.1:49592 Closing
+[Wed Jan 14 00:05:06 2026] 127.0.0.1:49593 [200]: GET /api/certificates
+[Wed Jan 14 00:05:06 2026] 127.0.0.1:49593 Closing
+[Wed Jan 14 00:06:38 2026] 127.0.0.1:50577 Accepted
+[Wed Jan 14 00:06:43 2026] 127.0.0.1:50577 [201]: POST /api/certificates
+[Wed Jan 14 00:06:43 2026] 127.0.0.1:50577 Closing
+[Wed Jan 14 00:07:03 2026] 127.0.0.1:50876 Accepted
+[Wed Jan 14 00:07:03 2026] 127.0.0.1:50876 [204]: OPTIONS /api/certificates/6/confirm
+[Wed Jan 14 00:07:03 2026] 127.0.0.1:50876 Closing
+[Wed Jan 14 00:07:03 2026] 127.0.0.1:50877 Accepted
+[Wed Jan 14 00:07:04 2026] 127.0.0.1:50877 [200]: POST /api/certificates/6/confirm
+[Wed Jan 14 00:07:04 2026] 127.0.0.1:50877 Closing
+[Wed Jan 14 00:07:04 2026] 127.0.0.1:50893 Accepted
+[Wed Jan 14 00:07:04 2026] 127.0.0.1:50893 [200]: GET /api/certificates
+[Wed Jan 14 00:07:04 2026] 127.0.0.1:50893 Closing
+[Wed Jan 14 00:07:08 2026] 127.0.0.1:50936 Accepted
+[Wed Jan 14 00:07:08 2026] 127.0.0.1:50937 Accepted
+[Wed Jan 14 00:07:08 2026] 127.0.0.1:50936 [200]: GET /api/certificates
+[Wed Jan 14 00:07:08 2026] 127.0.0.1:50936 Closing
+[Wed Jan 14 00:07:08 2026] 127.0.0.1:50937 [200]: GET /api/certificates
+[Wed Jan 14 00:07:08 2026] 127.0.0.1:50937 Closing
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50959 Accepted
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50959 [204]: OPTIONS /api/certificates/sync
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50959 Closing
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50960 Accepted
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50960 [200]: POST /api/certificates/sync
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50960 Closing
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50961 Accepted
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50961 [204]: OPTIONS /api/certificates/sync
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50961 Closing
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50962 Accepted
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50962 [200]: POST /api/certificates/sync
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50962 Closing
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50964 Accepted
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50964 [204]: OPTIONS /api/certificates/sync
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50964 Closing
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50965 Accepted
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50965 [200]: POST /api/certificates/sync
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50965 Closing
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50966 Accepted
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50966 [204]: OPTIONS /api/certificates/sync
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50966 Closing
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50967 Accepted
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50967 [200]: POST /api/certificates/sync
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50967 Closing
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50968 Accepted
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50968 [200]: GET /api/certificates
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50968 Closing
+[Wed Jan 14 00:07:10 2026] 127.0.0.1:50978 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50978 [204]: OPTIONS /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50978 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50979 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50979 [200]: POST /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50979 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50980 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50980 [204]: OPTIONS /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50980 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50982 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50982 [200]: POST /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50982 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50983 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50983 [204]: OPTIONS /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50983 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50984 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50984 [200]: POST /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50984 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50985 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50985 [204]: OPTIONS /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50985 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50986 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50986 [200]: POST /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50986 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50989 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50989 [200]: GET /api/certificates
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50989 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50990 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50990 [204]: OPTIONS /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50990 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50991 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50991 [200]: POST /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50991 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50992 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50992 [204]: OPTIONS /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50992 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50993 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50993 [200]: POST /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50993 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50994 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50994 [204]: OPTIONS /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50994 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50995 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50995 [200]: POST /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50995 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50996 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50996 [204]: OPTIONS /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50996 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50997 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50997 [200]: POST /api/certificates/sync
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50997 Closing
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50998 Accepted
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50998 [200]: GET /api/certificates
+[Wed Jan 14 00:07:11 2026] 127.0.0.1:50998 Closing
+[Wed Jan 14 00:16:59 2026] 127.0.0.1:54220 Accepted
+[Wed Jan 14 00:16:59 2026] 127.0.0.1:54220 [200]: GET /api/certificates
+[Wed Jan 14 00:16:59 2026] 127.0.0.1:54220 Closing
+[Wed Jan 14 00:16:59 2026] 127.0.0.1:54221 Accepted
+[Wed Jan 14 00:16:59 2026] 127.0.0.1:54221 [200]: GET /api/certificates
+[Wed Jan 14 00:16:59 2026] 127.0.0.1:54221 Closing
+[Wed Jan 14 00:18:03 2026] 127.0.0.1:55499 Accepted
+[Wed Jan 14 00:18:08 2026] 127.0.0.1:55499 [201]: POST /api/certificates
+[Wed Jan 14 00:18:08 2026] 127.0.0.1:55499 Closing
+[Wed Jan 14 00:18:27 2026] 127.0.0.1:55984 Accepted
+[Wed Jan 14 00:18:27 2026] 127.0.0.1:55984 [204]: OPTIONS /api/certificates/7/confirm
+[Wed Jan 14 00:18:27 2026] 127.0.0.1:55984 Closing
+[Wed Jan 14 00:18:27 2026] 127.0.0.1:55986 Accepted
+[Wed Jan 14 00:18:28 2026] 127.0.0.1:55986 [200]: POST /api/certificates/7/confirm
+[Wed Jan 14 00:18:28 2026] 127.0.0.1:55986 Closing
+[Wed Jan 14 00:18:28 2026] 127.0.0.1:55994 Accepted
+[Wed Jan 14 00:18:28 2026] 127.0.0.1:55994 [200]: GET /api/certificates
+[Wed Jan 14 00:18:28 2026] 127.0.0.1:55994 Closing
+[Wed Jan 14 00:18:30 2026] 127.0.0.1:56047 Accepted
+[Wed Jan 14 00:18:30 2026] 127.0.0.1:56048 Accepted
+[Wed Jan 14 00:18:30 2026] 127.0.0.1:56047 [200]: GET /api/certificates
+[Wed Jan 14 00:18:30 2026] 127.0.0.1:56047 Closing
+[Wed Jan 14 00:18:30 2026] 127.0.0.1:56048 [200]: GET /api/certificates
+[Wed Jan 14 00:18:30 2026] 127.0.0.1:56048 Closing
+[Wed Jan 14 00:24:12 2026] 127.0.0.1:63168 Accepted
+[Wed Jan 14 00:24:12 2026] 127.0.0.1:63169 Accepted
+[Wed Jan 14 00:24:12 2026] 127.0.0.1:63168 [200]: GET /api/certificates
+[Wed Jan 14 00:24:12 2026] 127.0.0.1:63168 Closing
+[Wed Jan 14 00:24:12 2026] 127.0.0.1:63169 [200]: GET /api/certificates
+[Wed Jan 14 00:24:12 2026] 127.0.0.1:63169 Closing
+[Wed Jan 14 00:24:14 2026] 127.0.0.1:63208 Accepted
+[Wed Jan 14 00:24:14 2026] 127.0.0.1:63208 [200]: GET /api/certificates
+[Wed Jan 14 00:24:14 2026] 127.0.0.1:63208 Closing
+[Wed Jan 14 00:24:14 2026] 127.0.0.1:63209 Accepted
+[Wed Jan 14 00:24:14 2026] 127.0.0.1:63209 [200]: GET /api/certificates
+[Wed Jan 14 00:24:14 2026] 127.0.0.1:63209 Closing
+[Wed Jan 14 00:24:16 2026] 127.0.0.1:63237 Accepted
+[Wed Jan 14 00:24:16 2026] 127.0.0.1:63237 [200]: GET /api/certificates
+[Wed Jan 14 00:24:16 2026] 127.0.0.1:63237 Closing
+[Wed Jan 14 00:24:16 2026] 127.0.0.1:63238 Accepted
+[Wed Jan 14 00:24:16 2026] 127.0.0.1:63238 [200]: GET /api/certificates
+[Wed Jan 14 00:24:16 2026] 127.0.0.1:63238 Closing
+[Wed Jan 14 00:25:35 2026] 127.0.0.1:64887 Accepted
+[Wed Jan 14 00:25:42 2026] 127.0.0.1:64887 [201]: POST /api/certificates
+[Wed Jan 14 00:25:42 2026] 127.0.0.1:64887 Closing
+[Wed Jan 14 00:26:03 2026] 127.0.0.1:65491 Accepted
+[Wed Jan 14 00:26:03 2026] 127.0.0.1:65491 [204]: OPTIONS /api/certificates/8/confirm
+[Wed Jan 14 00:26:03 2026] 127.0.0.1:65491 Closing
+[Wed Jan 14 00:26:03 2026] 127.0.0.1:65492 Accepted
+[Wed Jan 14 00:26:06 2026] 127.0.0.1:65492 [200]: POST /api/certificates/8/confirm
+[Wed Jan 14 00:26:06 2026] 127.0.0.1:65492 Closing
+[Wed Jan 14 00:26:06 2026] 127.0.0.1:49176 Accepted
+[Wed Jan 14 00:26:06 2026] 127.0.0.1:49176 [200]: GET /api/certificates
+[Wed Jan 14 00:26:06 2026] 127.0.0.1:49176 Closing
+[Wed Jan 14 00:26:08 2026] 127.0.0.1:49213 Accepted
+[Wed Jan 14 00:26:08 2026] 127.0.0.1:49214 Accepted
+[Wed Jan 14 00:26:08 2026] 127.0.0.1:49213 [200]: GET /api/certificates
+[Wed Jan 14 00:26:08 2026] 127.0.0.1:49213 Closing
+[Wed Jan 14 00:26:08 2026] 127.0.0.1:49214 [200]: GET /api/certificates
+[Wed Jan 14 00:26:08 2026] 127.0.0.1:49214 Closing
+[Wed Jan 14 01:15:27 2026] 127.0.0.1:55881 Accepted
+[Wed Jan 14 01:15:27 2026] 127.0.0.1:55882 Accepted
+[Wed Jan 14 01:15:27 2026] 127.0.0.1:55881 [200]: GET /api/certificates
+[Wed Jan 14 01:15:27 2026] 127.0.0.1:55881 Closing
+[Wed Jan 14 01:15:27 2026] 127.0.0.1:55882 [200]: GET /api/certificates
+[Wed Jan 14 01:15:27 2026] 127.0.0.1:55882 Closing
+[Wed Jan 14 01:15:38 2026] 127.0.0.1:55938 Accepted
+[Wed Jan 14 01:15:38 2026] 127.0.0.1:55938 [200]: GET /api/certificates
+[Wed Jan 14 01:15:38 2026] 127.0.0.1:55938 Closing
+[Wed Jan 14 01:15:38 2026] 127.0.0.1:55939 Accepted
+[Wed Jan 14 01:15:38 2026] 127.0.0.1:55939 [200]: GET /api/certificates
+[Wed Jan 14 01:15:38 2026] 127.0.0.1:55939 Closing
+[Wed Jan 14 01:18:19 2026] 127.0.0.1:56725 Accepted
+[Wed Jan 14 01:18:19 2026] 127.0.0.1:56725 [204]: OPTIONS /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Wed Jan 14 01:18:19 2026] 127.0.0.1:56725 Closing
+[Wed Jan 14 01:18:19 2026] 127.0.0.1:56726 Accepted
+[Wed Jan 14 01:18:19 2026] 127.0.0.1:56726 [200]: GET /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Wed Jan 14 01:18:19 2026] 127.0.0.1:56726 Closing
+[Wed Jan 14 01:41:49 2026] 127.0.0.1:60426 Accepted
+[Wed Jan 14 01:41:49 2026] 127.0.0.1:60427 Accepted
+[Wed Jan 14 01:41:50 2026] 127.0.0.1:60426 [200]: GET /api/certificates
+[Wed Jan 14 01:41:50 2026] 127.0.0.1:60426 Closing
+[Wed Jan 14 01:41:50 2026] 127.0.0.1:60427 [200]: GET /api/certificates
+[Wed Jan 14 01:41:50 2026] 127.0.0.1:60427 Closing
+[Wed Jan 14 01:43:30 2026] 127.0.0.1:60862 Accepted
+[Wed Jan 14 01:43:39 2026] 127.0.0.1:60862 [201]: POST /api/certificates
+[Wed Jan 14 01:43:39 2026] 127.0.0.1:60862 Closing
+[Wed Jan 14 01:44:25 2026] 127.0.0.1:61126 Accepted
+[Wed Jan 14 01:44:25 2026] 127.0.0.1:61126 [204]: OPTIONS /api/certificates/9/confirm
+[Wed Jan 14 01:44:25 2026] 127.0.0.1:61126 Closing
+[Wed Jan 14 01:44:25 2026] 127.0.0.1:61127 Accepted
+[Wed Jan 14 01:44:26 2026] 127.0.0.1:61127 [200]: POST /api/certificates/9/confirm
+[Wed Jan 14 01:44:26 2026] 127.0.0.1:61127 Closing
+[Wed Jan 14 01:44:26 2026] 127.0.0.1:61130 Accepted
+[Wed Jan 14 01:44:26 2026] 127.0.0.1:61130 [200]: GET /api/certificates
+[Wed Jan 14 01:44:26 2026] 127.0.0.1:61130 Closing
+[Wed Jan 14 01:44:30 2026] 127.0.0.1:61159 Accepted
+[Wed Jan 14 01:44:30 2026] 127.0.0.1:61160 Accepted
+[Wed Jan 14 01:44:30 2026] 127.0.0.1:61159 [200]: GET /api/certificates
+[Wed Jan 14 01:44:30 2026] 127.0.0.1:61159 Closing
+[Wed Jan 14 01:44:30 2026] 127.0.0.1:61160 [200]: GET /api/certificates
+[Wed Jan 14 01:44:30 2026] 127.0.0.1:61160 Closing
+[Wed Jan 14 01:45:04 2026] 127.0.0.1:61316 Accepted
+[Wed Jan 14 01:45:04 2026] 127.0.0.1:61317 Accepted
+[Wed Jan 14 01:45:04 2026] 127.0.0.1:61316 [200]: GET /api/certificates
+[Wed Jan 14 01:45:04 2026] 127.0.0.1:61316 Closing
+[Wed Jan 14 01:45:04 2026] 127.0.0.1:61317 [200]: GET /api/certificates
+[Wed Jan 14 01:45:04 2026] 127.0.0.1:61317 Closing
+[Wed Jan 14 01:45:05 2026] 127.0.0.1:61322 Accepted
+[Wed Jan 14 01:45:05 2026] 127.0.0.1:61323 Accepted
+[Wed Jan 14 01:45:05 2026] 127.0.0.1:61322 [200]: GET /api/certificates
+[Wed Jan 14 01:45:05 2026] 127.0.0.1:61322 Closing
+[Wed Jan 14 01:45:05 2026] 127.0.0.1:61323 [200]: GET /api/certificates
+[Wed Jan 14 01:45:05 2026] 127.0.0.1:61323 Closing
+[Wed Jan 14 06:09:43 2026] 127.0.0.1:64374 Accepted
+[Wed Jan 14 06:09:43 2026] 127.0.0.1:64375 Accepted
+[Wed Jan 14 06:09:43 2026] 127.0.0.1:64374 [200]: GET /api/certificates
+[Wed Jan 14 06:09:43 2026] 127.0.0.1:64374 Closing
+[Wed Jan 14 06:09:43 2026] 127.0.0.1:64375 [200]: GET /api/certificates
+[Wed Jan 14 06:09:43 2026] 127.0.0.1:64375 Closing
+[Wed Jan 14 06:09:45 2026] 127.0.0.1:64384 Accepted
+[Wed Jan 14 06:09:45 2026] 127.0.0.1:64385 Accepted
+[Wed Jan 14 06:09:45 2026] 127.0.0.1:64384 [200]: GET /api/certificates
+[Wed Jan 14 06:09:45 2026] 127.0.0.1:64384 Closing
+[Wed Jan 14 06:09:45 2026] 127.0.0.1:64385 [200]: GET /api/certificates
+[Wed Jan 14 06:09:45 2026] 127.0.0.1:64385 Closing
+[Wed Jan 14 11:05:49 2026] 127.0.0.1:59650 Accepted
+[Wed Jan 14 11:05:49 2026] 127.0.0.1:59651 Accepted
+[Wed Jan 14 11:05:49 2026] 127.0.0.1:59650 [200]: GET /api/certificates
+[Wed Jan 14 11:05:49 2026] 127.0.0.1:59650 Closing
+[Wed Jan 14 11:05:49 2026] 127.0.0.1:59651 [200]: GET /api/certificates
+[Wed Jan 14 11:05:49 2026] 127.0.0.1:59651 Closing
+[Wed Jan 14 11:05:50 2026] 127.0.0.1:59664 Accepted
+[Wed Jan 14 11:05:50 2026] 127.0.0.1:59665 Accepted
+[Wed Jan 14 11:05:50 2026] 127.0.0.1:59664 [200]: GET /api/certificates
+[Wed Jan 14 11:05:50 2026] 127.0.0.1:59664 Closing
+[Wed Jan 14 11:05:50 2026] 127.0.0.1:59665 [200]: GET /api/certificates
+[Wed Jan 14 11:05:50 2026] 127.0.0.1:59665 Closing
+[Wed Jan 14 11:05:52 2026] 127.0.0.1:59678 Accepted
+[Wed Jan 14 11:05:52 2026] 127.0.0.1:59679 Accepted
+[Wed Jan 14 11:05:52 2026] 127.0.0.1:59678 [200]: GET /api/certificates
+[Wed Jan 14 11:05:52 2026] 127.0.0.1:59678 Closing
+[Wed Jan 14 11:05:53 2026] 127.0.0.1:59679 [200]: GET /api/certificates
+[Wed Jan 14 11:05:53 2026] 127.0.0.1:59679 Closing
+[Wed Jan 14 11:06:57 2026] 127.0.0.1:59976 Accepted
+[Wed Jan 14 11:07:02 2026] 127.0.0.1:59976 [201]: POST /api/certificates
+[Wed Jan 14 11:07:02 2026] 127.0.0.1:59976 Closing
+[Wed Jan 14 11:07:54 2026] 127.0.0.1:60304 Accepted
+[Wed Jan 14 11:07:54 2026] 127.0.0.1:60305 Accepted
+[Wed Jan 14 11:07:54 2026] 127.0.0.1:60304 [200]: GET /api/certificates
+[Wed Jan 14 11:07:54 2026] 127.0.0.1:60304 Closing
+[Wed Jan 14 11:07:54 2026] 127.0.0.1:60305 [200]: GET /api/certificates
+[Wed Jan 14 11:07:54 2026] 127.0.0.1:60305 Closing
+[Wed Jan 14 11:08:45 2026] 127.0.0.1:60548 Accepted
+[Wed Jan 14 11:08:51 2026] 127.0.0.1:60548 [201]: POST /api/certificates
+[Wed Jan 14 11:08:51 2026] 127.0.0.1:60548 Closing
+[Wed Jan 14 11:09:16 2026] 127.0.0.1:60723 Accepted
+[Wed Jan 14 11:09:16 2026] 127.0.0.1:60723 [204]: OPTIONS /api/certificates/11/confirm
+[Wed Jan 14 11:09:16 2026] 127.0.0.1:60723 Closing
+[Wed Jan 14 11:09:16 2026] 127.0.0.1:60724 Accepted
+[Wed Jan 14 11:09:18 2026] 127.0.0.1:60724 [200]: POST /api/certificates/11/confirm
+[Wed Jan 14 11:09:18 2026] 127.0.0.1:60724 Closing
+[Wed Jan 14 11:09:18 2026] 127.0.0.1:60742 Accepted
+[Wed Jan 14 11:09:19 2026] 127.0.0.1:60742 [200]: GET /api/certificates
+[Wed Jan 14 11:09:19 2026] 127.0.0.1:60742 Closing
+[Wed Jan 14 11:09:21 2026] 127.0.0.1:60756 Accepted
+[Wed Jan 14 11:09:21 2026] 127.0.0.1:60757 Accepted
+[Wed Jan 14 11:09:21 2026] 127.0.0.1:60756 [200]: GET /api/certificates
+[Wed Jan 14 11:09:21 2026] 127.0.0.1:60756 Closing
+[Wed Jan 14 11:09:22 2026] 127.0.0.1:60757 [200]: GET /api/certificates
+[Wed Jan 14 11:09:22 2026] 127.0.0.1:60757 Closing
+[Wed Jan 14 11:09:51 2026] 127.0.0.1:60922 Accepted
+[Wed Jan 14 11:09:51 2026] 127.0.0.1:60922 [204]: OPTIONS /api/certificates/10/confirm
+[Wed Jan 14 11:09:51 2026] 127.0.0.1:60922 Closing
+[Wed Jan 14 11:09:51 2026] 127.0.0.1:60927 Accepted
+[Wed Jan 14 11:09:52 2026] 127.0.0.1:60927 [200]: POST /api/certificates/10/confirm
+[Wed Jan 14 11:09:52 2026] 127.0.0.1:60927 Closing
+[Wed Jan 14 11:09:53 2026] 127.0.0.1:60945 Accepted
+[Wed Jan 14 11:09:53 2026] 127.0.0.1:60945 [200]: GET /api/certificates
+[Wed Jan 14 11:09:53 2026] 127.0.0.1:60945 Closing
+[Wed Jan 14 11:09:53 2026] 127.0.0.1:60946 Accepted
+[Wed Jan 14 11:09:53 2026] 127.0.0.1:60946 [200]: GET /api/certificates
+[Wed Jan 14 11:09:53 2026] 127.0.0.1:60946 Closing
+[Wed Jan 14 11:09:55 2026] 127.0.0.1:60955 Accepted
+[Wed Jan 14 11:09:55 2026] 127.0.0.1:60956 Accepted
+[Wed Jan 14 11:09:55 2026] 127.0.0.1:60955 [200]: GET /api/certificates
+[Wed Jan 14 11:09:55 2026] 127.0.0.1:60955 Closing
+[Wed Jan 14 11:09:55 2026] 127.0.0.1:60956 [200]: GET /api/certificates
+[Wed Jan 14 11:09:55 2026] 127.0.0.1:60956 Closing
+[Wed Jan 14 11:20:10 2026] 127.0.0.1:64911 Accepted
+[Wed Jan 14 11:20:10 2026] 127.0.0.1:64912 Accepted
+[Wed Jan 14 11:20:11 2026] 127.0.0.1:64911 [200]: GET /api/certificates
+[Wed Jan 14 11:20:11 2026] 127.0.0.1:64911 Closing
+[Wed Jan 14 11:20:11 2026] 127.0.0.1:64912 [200]: GET /api/certificates
+[Wed Jan 14 11:20:11 2026] 127.0.0.1:64912 Closing
+[Wed Jan 14 11:21:49 2026] 127.0.0.1:65383 Accepted
+[Wed Jan 14 11:22:11 2026] 127.0.0.1:65383 [201]: POST /api/certificates
+[Wed Jan 14 11:22:11 2026] 127.0.0.1:65383 Closing
+[Wed Jan 14 11:22:27 2026] 127.0.0.1:49237 Accepted
+[Wed Jan 14 11:22:27 2026] 127.0.0.1:49237 [204]: OPTIONS /api/certificates/12/confirm
+[Wed Jan 14 11:22:27 2026] 127.0.0.1:49237 Closing
+[Wed Jan 14 11:22:27 2026] 127.0.0.1:49238 Accepted
+[Wed Jan 14 11:22:29 2026] 127.0.0.1:49238 [200]: POST /api/certificates/12/confirm
+[Wed Jan 14 11:22:29 2026] 127.0.0.1:49238 Closing
+[Wed Jan 14 11:22:29 2026] 127.0.0.1:49244 Accepted
+[Wed Jan 14 11:22:29 2026] 127.0.0.1:49244 [200]: GET /api/certificates
+[Wed Jan 14 11:22:29 2026] 127.0.0.1:49244 Closing
+[Wed Jan 14 11:22:50 2026] 127.0.0.1:49338 Accepted
+[Wed Jan 14 11:22:50 2026] 127.0.0.1:49339 Accepted
+[Wed Jan 14 11:22:51 2026] 127.0.0.1:49338 [200]: GET /api/certificates
+[Wed Jan 14 11:22:51 2026] 127.0.0.1:49338 Closing
+[Wed Jan 14 11:22:51 2026] 127.0.0.1:49339 [200]: GET /api/certificates
+[Wed Jan 14 11:22:51 2026] 127.0.0.1:49339 Closing
+[Wed Jan 14 11:27:07 2026] 127.0.0.1:50473 Accepted
+[Wed Jan 14 11:27:07 2026] 127.0.0.1:50474 Accepted
+[Wed Jan 14 11:27:07 2026] 127.0.0.1:50473 [200]: GET /api/certificates
+[Wed Jan 14 11:27:07 2026] 127.0.0.1:50473 Closing
+[Wed Jan 14 11:27:07 2026] 127.0.0.1:50474 [200]: GET /api/certificates
+[Wed Jan 14 11:27:07 2026] 127.0.0.1:50474 Closing
+[Wed Jan 14 11:30:09 2026] 127.0.0.1:51298 Accepted
+[Wed Jan 14 11:30:09 2026] 127.0.0.1:51299 Accepted
+[Wed Jan 14 11:30:09 2026] 127.0.0.1:51298 [200]: GET /api/certificates
+[Wed Jan 14 11:30:09 2026] 127.0.0.1:51298 Closing
+[Wed Jan 14 11:30:09 2026] 127.0.0.1:51299 [200]: GET /api/certificates
+[Wed Jan 14 11:30:09 2026] 127.0.0.1:51299 Closing
+[Wed Jan 14 11:33:32 2026] 127.0.0.1:52208 Accepted
+[Wed Jan 14 11:33:32 2026] 127.0.0.1:52208 [200]: GET /api/certificates
+[Wed Jan 14 11:33:32 2026] 127.0.0.1:52208 Closing
+[Wed Jan 14 11:33:32 2026] 127.0.0.1:52209 Accepted
+[Wed Jan 14 11:33:32 2026] 127.0.0.1:52209 [200]: GET /api/certificates
+[Wed Jan 14 11:33:32 2026] 127.0.0.1:52209 Closing
+[Wed Jan 14 11:35:11 2026] 127.0.0.1:52627 Accepted
+[Wed Jan 14 11:35:11 2026] 127.0.0.1:52628 Accepted
+[Wed Jan 14 11:35:11 2026] 127.0.0.1:52627 [200]: GET /api/certificates
+[Wed Jan 14 11:35:11 2026] 127.0.0.1:52627 Closing
+[Wed Jan 14 11:35:11 2026] 127.0.0.1:52628 [200]: GET /api/certificates
+[Wed Jan 14 11:35:11 2026] 127.0.0.1:52628 Closing
+[Wed Jan 14 11:35:16 2026] 127.0.0.1:52653 Accepted
+[Wed Jan 14 11:35:16 2026] 127.0.0.1:52654 Accepted
+[Wed Jan 14 11:35:16 2026] 127.0.0.1:52653 [200]: GET /api/certificates
+[Wed Jan 14 11:35:16 2026] 127.0.0.1:52653 Closing
+[Wed Jan 14 11:35:16 2026] 127.0.0.1:52654 [200]: GET /api/certificates
+[Wed Jan 14 11:35:16 2026] 127.0.0.1:52654 Closing
+[Sun Jan 18 14:35:48 2026] 127.0.0.1:60077 Accepted
+[Sun Jan 18 14:35:48 2026] 127.0.0.1:60078 Accepted
+[Sun Jan 18 14:35:48 2026] 127.0.0.1:60077 [200]: GET /api/certificates
+[Sun Jan 18 14:35:48 2026] 127.0.0.1:60077 Closing
+[Sun Jan 18 14:35:48 2026] 127.0.0.1:60078 [200]: GET /api/certificates
+[Sun Jan 18 14:35:48 2026] 127.0.0.1:60078 Closing
+[Sun Jan 18 14:36:00 2026] 127.0.0.1:60142 Accepted
+[Sun Jan 18 14:36:00 2026] 127.0.0.1:60143 Accepted
+[Sun Jan 18 14:36:00 2026] 127.0.0.1:60142 [200]: GET /api/certificates
+[Sun Jan 18 14:36:00 2026] 127.0.0.1:60142 Closing
+[Sun Jan 18 14:36:00 2026] 127.0.0.1:60143 [200]: GET /api/certificates
+[Sun Jan 18 14:36:00 2026] 127.0.0.1:60143 Closing
+[Sun Jan 18 20:02:14 2026] 127.0.0.1:60475 Accepted
+[Sun Jan 18 20:02:14 2026] 127.0.0.1:60476 Accepted
+[Sun Jan 18 20:02:14 2026] 127.0.0.1:60475 [200]: GET /api/certificates
+[Sun Jan 18 20:02:14 2026] 127.0.0.1:60475 Closing
+[Sun Jan 18 20:02:14 2026] 127.0.0.1:60476 [200]: GET /api/certificates
+[Sun Jan 18 20:02:14 2026] 127.0.0.1:60476 Closing
+[Sun Jan 18 20:03:27 2026] 127.0.0.1:60891 Accepted
+[Sun Jan 18 20:03:27 2026] 127.0.0.1:60892 Accepted
+[Sun Jan 18 20:03:27 2026] 127.0.0.1:60891 [200]: GET /api/certificates
+[Sun Jan 18 20:03:27 2026] 127.0.0.1:60891 Closing
+[Sun Jan 18 20:03:27 2026] 127.0.0.1:60892 [200]: GET /api/certificates
+[Sun Jan 18 20:03:27 2026] 127.0.0.1:60892 Closing
+[Sun Jan 18 20:05:15 2026] 127.0.0.1:61452 Accepted
+[Sun Jan 18 20:05:19 2026] 127.0.0.1:61452 [201]: POST /api/certificates
+[Sun Jan 18 20:05:19 2026] 127.0.0.1:61452 Closing
+[Sun Jan 18 20:05:41 2026] 127.0.0.1:61608 Accepted
+[Sun Jan 18 20:05:41 2026] 127.0.0.1:61608 [204]: OPTIONS /api/certificates/13/confirm
+[Sun Jan 18 20:05:41 2026] 127.0.0.1:61608 Closing
+[Sun Jan 18 20:05:41 2026] 127.0.0.1:61613 Accepted
+[Sun Jan 18 20:05:41 2026] 127.0.0.1:61613 [200]: POST /api/certificates/13/confirm
+[Sun Jan 18 20:05:41 2026] 127.0.0.1:61613 Closing
+[Sun Jan 18 20:05:41 2026] 127.0.0.1:61619 Accepted
+[Sun Jan 18 20:05:41 2026] 127.0.0.1:61619 [200]: GET /api/certificates
+[Sun Jan 18 20:05:41 2026] 127.0.0.1:61619 Closing
+[Sun Jan 18 20:05:44 2026] 127.0.0.1:61633 Accepted
+[Sun Jan 18 20:05:44 2026] 127.0.0.1:61634 Accepted
+[Sun Jan 18 20:05:44 2026] 127.0.0.1:61633 [200]: GET /api/certificates
+[Sun Jan 18 20:05:44 2026] 127.0.0.1:61633 Closing
+[Sun Jan 18 20:05:44 2026] 127.0.0.1:61634 [200]: GET /api/certificates
+[Sun Jan 18 20:05:44 2026] 127.0.0.1:61634 Closing
+[Sun Jan 18 20:05:46 2026] 127.0.0.1:61645 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61645 [204]: OPTIONS /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61645 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61646 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61646 [200]: POST /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61646 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61647 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61647 [204]: OPTIONS /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61647 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61648 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61648 [200]: POST /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61648 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61649 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61649 [204]: OPTIONS /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61649 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61650 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61650 [200]: POST /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61650 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61651 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61651 [204]: OPTIONS /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61651 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61652 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61652 [200]: POST /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61652 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61653 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61653 [200]: GET /api/certificates
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61653 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61661 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61661 [204]: OPTIONS /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61661 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61662 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61662 [200]: POST /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61662 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61663 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61663 [204]: OPTIONS /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61663 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61664 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61664 [200]: POST /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61664 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61665 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61665 [204]: OPTIONS /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61665 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61666 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61666 [200]: POST /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61666 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61667 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61667 [204]: OPTIONS /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61667 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61668 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61668 [200]: POST /api/certificates/sync
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61668 Closing
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61669 Accepted
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61669 [200]: GET /api/certificates
+[Sun Jan 18 20:05:47 2026] 127.0.0.1:61669 Closing
+[Sun Jan 18 20:06:06 2026] 127.0.0.1:61774 Accepted
+[Sun Jan 18 20:06:06 2026] 127.0.0.1:61775 Accepted
+[Sun Jan 18 20:06:06 2026] 127.0.0.1:61774 [200]: GET /api/certificates
+[Sun Jan 18 20:06:06 2026] 127.0.0.1:61774 Closing
+[Sun Jan 18 20:06:06 2026] 127.0.0.1:61775 [200]: GET /api/certificates
+[Sun Jan 18 20:06:06 2026] 127.0.0.1:61775 Closing
+[Sun Jan 18 20:06:08 2026] 127.0.0.1:61785 Accepted
+[Sun Jan 18 20:06:08 2026] 127.0.0.1:61786 Accepted
+[Sun Jan 18 20:06:08 2026] 127.0.0.1:61785 [200]: GET /api/certificates
+[Sun Jan 18 20:06:08 2026] 127.0.0.1:61785 Closing
+[Sun Jan 18 20:06:08 2026] 127.0.0.1:61786 [200]: GET /api/certificates
+[Sun Jan 18 20:06:08 2026] 127.0.0.1:61786 Closing
+[Sun Jan 18 20:08:04 2026] 127.0.0.1:62405 Accepted
+[Sun Jan 18 20:08:04 2026] 127.0.0.1:62405 [204]: OPTIONS /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Sun Jan 18 20:08:04 2026] 127.0.0.1:62405 Closing
+[Sun Jan 18 20:08:04 2026] 127.0.0.1:62406 Accepted
+[Sun Jan 18 20:08:04 2026] 127.0.0.1:62406 [200]: GET /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Sun Jan 18 20:08:04 2026] 127.0.0.1:62406 Closing
+[Tue Jan 20 12:34:11 2026] 127.0.0.1:54138 Accepted
+[Tue Jan 20 12:34:11 2026] 127.0.0.1:54139 Accepted
+[Tue Jan 20 12:34:11 2026] 127.0.0.1:54138 [200]: GET /api/certificates
+[Tue Jan 20 12:34:11 2026] 127.0.0.1:54138 Closing
+[Tue Jan 20 12:34:11 2026] 127.0.0.1:54139 [200]: GET /api/certificates
+[Tue Jan 20 12:34:11 2026] 127.0.0.1:54139 Closing
+[Tue Jan 20 12:34:19 2026] 127.0.0.1:54279 Accepted
+[Tue Jan 20 12:34:19 2026] 127.0.0.1:54280 Accepted
+[Tue Jan 20 12:34:19 2026] 127.0.0.1:54279 [200]: GET /api/certificates
+[Tue Jan 20 12:34:19 2026] 127.0.0.1:54279 Closing
+[Tue Jan 20 12:34:19 2026] 127.0.0.1:54280 [200]: GET /api/certificates
+[Tue Jan 20 12:34:19 2026] 127.0.0.1:54280 Closing
+[Tue Jan 20 14:41:25 2026] 127.0.0.1:56747 Accepted
+[Tue Jan 20 14:41:25 2026] 127.0.0.1:56748 Accepted
+[Tue Jan 20 14:41:25 2026] 127.0.0.1:56747 [200]: GET /api/certificates
+[Tue Jan 20 14:41:25 2026] 127.0.0.1:56747 Closing
+[Tue Jan 20 14:41:25 2026] 127.0.0.1:56748 [200]: GET /api/certificates
+[Tue Jan 20 14:41:25 2026] 127.0.0.1:56748 Closing
+[Tue Jan 20 14:46:55 2026] 127.0.0.1:58096 Accepted
+[Tue Jan 20 14:47:03 2026] 127.0.0.1:58096 [201]: POST /api/certificates
+[Tue Jan 20 14:47:03 2026] 127.0.0.1:58096 Closing
+[Tue Jan 20 14:47:26 2026] 127.0.0.1:58254 Accepted
+[Tue Jan 20 14:47:26 2026] 127.0.0.1:58254 [204]: OPTIONS /api/certificates/14/confirm
+[Tue Jan 20 14:47:26 2026] 127.0.0.1:58254 Closing
+[Tue Jan 20 14:47:26 2026] 127.0.0.1:58255 Accepted
+[Tue Jan 20 14:47:28 2026] 127.0.0.1:58255 [200]: POST /api/certificates/14/confirm
+[Tue Jan 20 14:47:28 2026] 127.0.0.1:58255 Closing
+[Tue Jan 20 14:47:28 2026] 127.0.0.1:58266 Accepted
+[Tue Jan 20 14:47:28 2026] 127.0.0.1:58266 [200]: GET /api/certificates
+[Tue Jan 20 14:47:28 2026] 127.0.0.1:58266 Closing
+[Tue Jan 20 14:47:33 2026] 127.0.0.1:58287 Accepted
+[Tue Jan 20 14:47:33 2026] 127.0.0.1:58288 Accepted
+[Tue Jan 20 14:47:33 2026] 127.0.0.1:58287 [200]: GET /api/certificates
+[Tue Jan 20 14:47:33 2026] 127.0.0.1:58287 Closing
+[Tue Jan 20 14:47:33 2026] 127.0.0.1:58288 [200]: GET /api/certificates
+[Tue Jan 20 14:47:33 2026] 127.0.0.1:58288 Closing
+[Tue Jan 20 14:49:40 2026] 127.0.0.1:58812 Accepted
+[Tue Jan 20 14:49:40 2026] 127.0.0.1:58812 [200]: GET /api/certificates
+[Tue Jan 20 14:49:40 2026] 127.0.0.1:58812 Closing
+[Tue Jan 20 14:49:40 2026] 127.0.0.1:58813 Accepted
+[Tue Jan 20 14:49:40 2026] 127.0.0.1:58813 [200]: GET /api/certificates
+[Tue Jan 20 14:49:40 2026] 127.0.0.1:58813 Closing
+[Tue Jan 20 14:49:42 2026] 127.0.0.1:58822 Accepted
+[Tue Jan 20 14:49:42 2026] 127.0.0.1:58823 Accepted
+[Tue Jan 20 14:49:42 2026] 127.0.0.1:58822 [200]: GET /api/certificates
+[Tue Jan 20 14:49:42 2026] 127.0.0.1:58822 Closing
+[Tue Jan 20 14:49:42 2026] 127.0.0.1:58823 [200]: GET /api/certificates
+[Tue Jan 20 14:49:42 2026] 127.0.0.1:58823 Closing
+[Tue Jan 20 14:56:10 2026] 127.0.0.1:60467 Accepted
+[Tue Jan 20 14:56:10 2026] 127.0.0.1:60467 [204]: OPTIONS /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Tue Jan 20 14:56:10 2026] 127.0.0.1:60467 Closing
+[Tue Jan 20 14:56:10 2026] 127.0.0.1:60468 Accepted
+[Tue Jan 20 14:56:10 2026] 127.0.0.1:60468 [200]: GET /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Tue Jan 20 14:56:10 2026] 127.0.0.1:60468 Closing
+[Tue Jan 20 14:56:35 2026] 127.0.0.1:60621 Accepted
+[Tue Jan 20 14:56:35 2026] 127.0.0.1:60622 Accepted
+[Tue Jan 20 14:56:36 2026] 127.0.0.1:60621 [204]: OPTIONS /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Tue Jan 20 14:56:36 2026] 127.0.0.1:60621 Closing
+[Tue Jan 20 14:56:36 2026] 127.0.0.1:60622 [204]: OPTIONS /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Tue Jan 20 14:56:36 2026] 127.0.0.1:60622 Closing
+[Tue Jan 20 14:56:36 2026] 127.0.0.1:60623 Accepted
+[Tue Jan 20 14:56:36 2026] 127.0.0.1:60623 [200]: GET /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Tue Jan 20 14:56:36 2026] 127.0.0.1:60623 Closing
+[Tue Jan 20 14:56:36 2026] 127.0.0.1:60624 Accepted
+[Tue Jan 20 14:56:36 2026] 127.0.0.1:60624 [200]: GET /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Tue Jan 20 14:56:36 2026] 127.0.0.1:60624 Closing
+[Tue Jan 20 14:57:11 2026] 127.0.0.1:60770 Accepted
+[Tue Jan 20 14:57:11 2026] 127.0.0.1:60770 [204]: OPTIONS /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Tue Jan 20 14:57:11 2026] 127.0.0.1:60770 Closing
+[Tue Jan 20 14:57:11 2026] 127.0.0.1:60771 Accepted
+[Tue Jan 20 14:57:11 2026] 127.0.0.1:60771 [204]: OPTIONS /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Tue Jan 20 14:57:11 2026] 127.0.0.1:60771 Closing
+[Tue Jan 20 14:57:11 2026] 127.0.0.1:60772 Accepted
+[Tue Jan 20 14:57:11 2026] 127.0.0.1:60772 [200]: GET /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Tue Jan 20 14:57:11 2026] 127.0.0.1:60772 Closing
+[Tue Jan 20 14:57:11 2026] 127.0.0.1:60773 Accepted
+[Tue Jan 20 14:57:11 2026] 127.0.0.1:60773 [200]: GET /api/wallet/0x85125Ab70Deb9BA8aD5b8c5acb691001bE90c7c5/certificates
+[Tue Jan 20 14:57:11 2026] 127.0.0.1:60773 Closing
+[Tue Jan 20 14:57:23 2026] 127.0.0.1:60839 Accepted
+[Tue Jan 20 14:57:23 2026] 127.0.0.1:60839 [204]: OPTIONS /api/wallet/0xE8C8c962A28418639094c9D8974D556D8D2C6aaA/certificates
+[Tue Jan 20 14:57:23 2026] 127.0.0.1:60839 Closing
+[Tue Jan 20 14:57:23 2026] 127.0.0.1:60840 Accepted
+[Tue Jan 20 14:57:23 2026] 127.0.0.1:60840 [200]: GET /api/wallet/0xE8C8c962A28418639094c9D8974D556D8D2C6aaA/certificates
+[Tue Jan 20 14:57:23 2026] 127.0.0.1:60840 Closing
+[Tue Jan 20 14:57:29 2026] 127.0.0.1:60874 Accepted
+[Tue Jan 20 14:57:29 2026] 127.0.0.1:60875 Accepted
+[Tue Jan 20 14:57:29 2026] 127.0.0.1:60874 [200]: GET /api/certificates
+[Tue Jan 20 14:57:29 2026] 127.0.0.1:60874 Closing
+[Tue Jan 20 14:57:29 2026] 127.0.0.1:60875 [200]: GET /api/certificates
+[Tue Jan 20 14:57:29 2026] 127.0.0.1:60875 Closing
