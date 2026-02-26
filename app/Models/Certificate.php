@@ -20,10 +20,12 @@ class Certificate extends Model
         'transaction_hash',
         'on_chain_id',
         'token_id',
+        'metadata',
     ];
 
     protected $casts = [
         'issued_at' => 'datetime',
+        'metadata' => 'array',
     ];
 
     protected $appends = ['ipfs_url'];

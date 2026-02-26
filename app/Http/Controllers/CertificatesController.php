@@ -36,18 +36,27 @@ class CertificatesController extends Controller
             'certificate_file' => ['nullable', 'file', 'mimes:pdf,jpeg,png,jpg', 'max:10240'], // Max 10MB
             'template_type' => ['nullable', 'string', 'in:default,iedc,nss'],
             'skip_blockchain' => ['nullable', 'boolean'],
+            'enrollment_number' => ['nullable', 'string', 'max:50'],
         ]);
 
         try {
             // Create certificate record
-            $certificate = Certificate::create([
+            $certificateData = [
                 'recipient_name' => $data['recipient_name'],
                 'recipient_email' => $data['recipient_email'],
                 'recipient_address' => $data['recipient_address'] ?? null,
                 'title' => $data['title'],
                 'description' => $data['description'] ?? null,
                 'issued_at' => now(),
-            ]);
+            ];
+
+            if (!empty($data['enrollment_number'])) {
+                $certificateData['metadata'] = [
+                    'enrollment_number' => $data['enrollment_number']
+                ];
+            }
+
+            $certificate = Certificate::create($certificateData);
 
             // Handle file upload or generation
             $fileCid = null;
